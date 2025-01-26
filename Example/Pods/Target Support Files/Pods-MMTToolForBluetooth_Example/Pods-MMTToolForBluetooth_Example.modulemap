@@ -1,0 +1,6 @@
+framework module Pods_MMTToolForBluetooth_Example {
+  umbrella header "Pods-MMTToolForBluetooth_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

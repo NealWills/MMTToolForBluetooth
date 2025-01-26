@@ -1,0 +1,6 @@
+framework module MMTToolForBluetooth {
+  umbrella header "MMTToolForBluetooth-umbrella.h"
+
+  export *
+  module * { export * }
+}
