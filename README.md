@@ -1,3 +1,5 @@
+![Example Image](Resources/MMTToolForBluetooth.png)
+
 # MMTToolForBluetooth
 
 [![CI Status](https://img.shields.io/travis/NealWills/MMTToolForBluetooth.svg?style=flat)](https://travis-ci.org/NealWills/MMTToolForBluetooth)
