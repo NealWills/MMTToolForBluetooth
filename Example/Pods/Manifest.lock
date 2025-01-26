@@ -12,11 +12,13 @@ PODS:
   - Nimble (13.7.1):
     - CwlPreconditionTesting (~> 2.2.0)
   - Quick (7.6.2)
+  - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - MMTToolForBluetooth (from `../`)
   - Nimble
   - Quick
+  - SnapKit
 
 SPEC REPOS:
   trunk:
@@ -27,6 +29,7 @@ SPEC REPOS:
     - CwlPreconditionTesting
     - Nimble
     - Quick
+    - SnapKit
 
 EXTERNAL SOURCES:
   MMTToolForBluetooth:
@@ -38,10 +41,11 @@ SPEC CHECKSUMS:
   CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1
   CwlPosixPreconditionTesting: ecd095aa2129e740b44301c34571e8d85906fb88
   CwlPreconditionTesting: 67a0047dd4de4382b93442c0e3f25207f984f35a
-  MMTToolForBluetooth: 5f715c58cc9abfad555039128aab7617414d6ecc
+  MMTToolForBluetooth: 32a80659e130b2a612a11b82f8257c73f4d2555e
   Nimble: 317d713c30c3336dd8571da1889f7ec3afc626e8
   Quick: b8bec97cd4b9f21da0472d45580f763b801fc353
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 6fc4985d4bf5cf1c2260cff30d081b7d7ce8c830
+PODFILE CHECKSUM: 60ed365cd157820f7c18b68504dcb13ec72becee
 
 COCOAPODS: 1.16.2

@@ -19,6 +19,8 @@ end
 target 'MMTToolForBluetooth_Example' do
   pod 'MMTToolForBluetooth', :path => '../'
 
+  pod 'SnapKit'
+
   target 'MMTToolForBluetooth_Tests' do
     inherit! :search_paths
 
