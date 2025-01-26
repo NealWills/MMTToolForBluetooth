@@ -1,50 +1,28 @@
-// https://github.com/Quick/Quick
 
-import Quick
-import Nimble
-import MMTToolForBluetooth
+@testable import MMTToolForBluetooth_Example
+import XCTest
 
-class TableOfContentsSpec: QuickSpec {
-    override func spec() {
-        describe("these will fail") {
+final class MMTToolForGoodixDFUTests: XCTestCase {
+    override func setUpWithError() throws {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
 
-            it("can do maths") {
-                expect(1) == 2
-            }
+    override func tearDownWithError() throws {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
 
-            it("can read") {
-                expect("number") == "string"
-            }
+    func testExample() throws {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Any test you write for XCTest can be annotated as throws and async.
+        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
+        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    }
 
-            it("will eventually fail") {
-                expect("time").toEventually( equal("done") )
-            }
-            
-            context("these will pass") {
-
-                it("can do maths") {
-                    expect(23) == 23
-                }
-
-                it("can read") {
-                    expect("🐮") == "🐮"
-                }
-
-                it("will eventually pass") {
-                    var time = "passing"
-
-                    DispatchQueue.main.async {
-                        time = "done"
-                    }
-
-                    waitUntil { done in
-                        Thread.sleep(forTimeInterval: 0.5)
-                        expect(time) == "done"
-
-                        done()
-                    }
-                }
-            }
+    func testPerformanceExample() throws {
+        // This is an example of a performance test case.
+        measure {
+            // Put the code you want to measure the time of here.
         }
     }
 }
