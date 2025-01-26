@@ -8,6 +8,6 @@
 import Foundation
 import CoreBluetooth
 
-class MMTToolForBluetooth: NSObject {
+public class MMTToolForBluetooth: NSObject {
     
 } 

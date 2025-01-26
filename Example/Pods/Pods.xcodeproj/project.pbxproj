@@ -37,23 +37,27 @@
 		1F38B2E59E4C3ADE791308D713A605C3 /* NimbleTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C157E0427BE64879E4C09AF139A8C9 /* NimbleTimeInterval.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1FE98AA51F7AE294DC0F39D58FF96B74 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3317CF91937082676877A8CE4A52D43 /* Behavior.swift */; };
 		205EB01AED14BB574DD54EAFE26E4786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
-		21AC45318BCBDD757DEEEAB972E64A49 /* MMTToolForBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF756305A8C02527824F2372BDCEF411 /* MMTToolForBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22AFB695682D75764EAA01895E00ADBE /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF822D5326B2159574884E69CB074D8 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		26E47A2FF0CDA129C1248716C9176507 /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830FA6A3F0A64318423B7F51E7E9A6FC /* Matcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		29A454912E6711940DB8D64E4267DCFB /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD54E3D3DD68F24138251A08143804C /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29EA39ED87CF8C2D472CCD5DEF2ABFED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		2AF9DEFB8C481F8CE60069E96C0C85AD /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB71B0E32485C905A49FAB82AFE9C62 /* NSBundle+CurrentTestBundle.swift */; };
 		2B2EB369550CE92CEEFCBFD3D32B8A3F /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CCB95785A13A39FCD1B3FAED57656 /* ConstraintInsetTarget.swift */; };
+		2BE490076FDA8AB4C3FE1869F259CA70 /* MMTToolForBleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F62FFD80933961ED1B1560CCA7B16 /* MMTToolForBleLog.swift */; };
+		2C268C56DDE63C947A89191770DA9A41 /* MMTToolForBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CEDE5AB8EF8636ADBA0E7C1FAF1265 /* MMTToolForBluetooth.swift */; };
+		2CA817C36FEFF7FC5D826EE27BE7EBE8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA873DE8E5CEDCDC749EF600059CD33F /* CoreBluetooth.framework */; };
 		2D256E05BC58E00281187A055D2D09D9 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CF9D13C8024A7AA59098BBF27A5A04 /* Quick-dummy.m */; };
 		2F788EEFE79DBADD27DFE4D4922B2FF0 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC9CBF64A9F249182045357BA7CB939 /* SuiteHooks.swift */; };
 		2FEC3EDEC82F87E21F87D08397A80E2E /* QCKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98107C166AE928E912E63BDAB25EED4F /* QCKConfiguration.swift */; };
 		30939D360BFC744F1811E2A71E5D13BA /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24441C5D827E419E04CF1488D82B5FA1 /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		30C8F2BD0D1BA8329D84AEACE2DC838B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A45D1C1C2439A2CF90078A3A24540 /* Example.swift */; };
 		30CDA06ED597EB409D13D7F2B7BE5583 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7775C2F3813731E660963087AE6451 /* String+C99ExtendedIdentifier.swift */; };
+		32D959E8BAF63E90AEC2F056AB2DA8B3 /* MMTToolForBleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31572D65A7C1C4DA35055D7CB0B1FEA /* MMTToolForBleManager.swift */; };
 		3454AE3223216F07C816F4E69AF48C45 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078886E539431D8A4F50D938A3F21784 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		34EFCF9086A4B09AB6FD3A7A8C2504FA /* AsyncTimerSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F186163ED405770F40A82BD8FCA6 /* AsyncTimerSequence.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3577F172FA68CBAE47CFEE6FE25C5404 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F8E569523A882E32D210075BC2C93 /* ConstraintOffsetTarget.swift */; };
 		35F34BC004C024266675006F6744A2DB /* Equal+TupleArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211D17C11A0685983DD7AF1EAFEBDA2 /* Equal+TupleArray.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		3B830311F88EC66D9C1685E450D1D5F4 /* MMTToolForBleDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B491268DFAB68606372A7F99776D /* MMTToolForBleDevice.swift */; };
 		3B9D71C228241D63CED0C6B072E4D97B /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE58BC6ECA075301102AFAB1B1FB34D /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3C5983FF9977E70AF727FCC6C784FB91 /* Pods-MMTToolForBluetooth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C255A7EA71A02D3098048F403C9788B1 /* Pods-MMTToolForBluetooth_Tests-dummy.m */; };
 		3D3B646B4988314275B40E97BEB16C7F /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC4F068A421C5F8C4B2DB383DFA7636 /* ConstraintLayoutGuideDSL.swift */; };
@@ -69,17 +73,18 @@
 		462E7E84EEFCCE146DAA352A6BFE3C33 /* CwlPosixPreconditionTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BC914C82D8DBF3706BE3E254DE97D3 /* CwlPosixPreconditionTesting-dummy.m */; };
 		4796C4FE71E1D95CC37AADABEA45BBCF /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD02739FB9FF3457B4753F2D793A57 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		48D3C00490BC067FB98DC80B1CABFA7C /* QuickObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 43669205D94D2F10CCCE24B6C9214EE7 /* QuickObjCRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49F88DA1CED23ACF70ED0D51D2BCCE4F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AC24AF1CB200C2AB0932BDD624BC6524 /* PrivacyInfo.xcprivacy */; };
 		4A5647A85C00D91A4B89D0F56519148C /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315D0DA014345A8CDE8D3768DD91A0D /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4BA17840F84CF35005E4AA209DF9E231 /* Pods-MMTToolForBluetooth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF492BE7ABA70001C67FE5E41137EB1E /* Pods-MMTToolForBluetooth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BB9D213509C02CDDB0917134F98302D /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D065247D2446238D7EE4C6CA3DD9C7C7 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E08A53ADB3368B8E0B6DD00AFDB6933 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EB49CBF235E82F91E0430AC95F07C /* ErrorUtility.swift */; };
 		4F4DEB687C0E4834A5B291DEE0651D6A /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB80C17AE0A8DDC46D5DF860CB71A60 /* ConstraintMaker.swift */; };
+		50987A172E6486907E64E840E06A8B70 /* MMTToolForBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE83D56D959B47CF7B640FC2991B5AF7 /* MMTToolForBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		516694DA936B9D08B91C186CD6F8D6D5 /* AsyncWorld+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDADBE226A64EF730D858CB6CD7EAA /* AsyncWorld+DSL.swift */; };
 		524C333109D884FA21F47A82C3CCD82F /* AssertionRecorder+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0304F29720D56C85D1FF832718EA3 /* AssertionRecorder+Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		528FF479B159AEACC55AB56E48D65470 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 191C8EE61AB14F08E04AC53D7B766A1C /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		548788A7FAE8F9BD91E351D7A5A63FE1 /* CwlMachBadInstructionHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF099957587FEA21E0C32CA486790 /* CwlMachBadInstructionHandler-dummy.m */; };
 		561ED22BC886EF8B4AC8B7C2ECCDB73A /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3216A0F437886CE5A4A366C0E6C64 /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		579B92F7FDA51CC309C744C432397AA2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA873DE8E5CEDCDC749EF600059CD33F /* CoreBluetooth.framework */; };
 		57C4F6EFB30DDD14E960AC2D6B34F904 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 380F25D42EB5157507A1EB2511618342 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		581C46341020D188E748438E23134D6F /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE60823E2BE5BC01B38E725EB93EA1 /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		582C16B6637727B2178256261D5DD00F /* AsyncMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A190719F49E55CF5DE2C4F68CE1625 /* AsyncMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -93,28 +98,27 @@
 		60047BD8AF182AD53512CB4F23F741B5 /* CwlCatchException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08530183125918750C23B4EE0D0E05 /* CwlCatchException-dummy.m */; };
 		61E64501C42138545AD89D2607507995 /* Pods-MMTToolForBluetooth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A159E1BD13815B4B0A70A60DF8CFC /* Pods-MMTToolForBluetooth_Example-dummy.m */; };
 		64E88167E71972F0950590745FFF5A75 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1071C61FF7536E1EFD00B87A8CD135CD /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		659AFEE11B2BBFF9766F5B59898DEAC1 /* CwlCatchExceptionSupport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED1E04EFC383A5FE452A1A1A8C7EEC5 /* CwlCatchExceptionSupport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		687297FAD321FCD2526D2460E333BD09 /* AsyncBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC21EA34F845E2E02E5F0BF484ECF40 /* AsyncBehavior.swift */; };
 		68D5333B0D68BDDD85084154B1E03F74 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2DF48C4B77462D00FD0744B2B2EEE9 /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6B6663947381FFBBFE357E4134197C10 /* CwlMachBadInstructionHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9659281D49BEBF4E1D199D66F673FE /* CwlMachBadInstructionHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DCBAACCF8CC5006FC73313AB67286F6 /* Polling+AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F200F12D3CCB06BB9F4CEE6836C57 /* Polling+AsyncAwait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		6DE546527192C4DFBB66E58B66BC1F6F /* MMTToolForBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DE5E0204E2820C0D0B1EDC1BC3E805 /* MMTToolForBluetooth-dummy.m */; };
 		6E2834B7E4B59C0AC4CD61B89BABDB78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		6E39129FC8643A70C276801FEF4C280D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841B33F23F16C81BA2D6EAB4BD3D9C5 /* Constraint.swift */; };
+		6F1ED5A8ABACE02DFDD48C8F7CAAAA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		6F3765FAE3920A18607D719137972E8E /* CwlCatchException-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A3250EEDD3296BC272BD11D827FE0D /* CwlCatchException-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		700EAF2F053BFD7A9B976EAD9D90A8B1 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF36E38226076E5A3D6B37D31F47AF /* World+DSL.swift */; };
 		710A48C754849C6722436AEA00D0ECD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
-		716CE1BA5C4CE0A2A4ADA7D55D7FB87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		71C8EFE9EFD474180E7CD9AB15B45260 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C7E42A74D6E2AE56B57C0D1962461 /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		71C92CF07B60A2AA545AB0809459D83C /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE5AEB33CA890831626EAFE2205B327 /* URL+FileName.swift */; };
 		72B3540CA8778D7FB7D3DCCDE4A53989 /* Requirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE1F2A9A07B5E2477C228173917BB1 /* Requirement.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		73D9CDD90BA0AFAA3B1EFF8CB58444A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		742F8DE74C16B35469A566EEF092A794 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB42F41303DC01B4FAAC3715CF67A0A7 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		744D46F3F256AA37480F17AAEB72BB90 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = 306C4C25477CC635DA4DF79C35657DF2 /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		74CE1EA980ED4EC3145F9228A5FC5C9C /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F5FC0B941688E605A3279EA941A9DD /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76759A8D06C993A9BECEC349E6C24CD5 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E241CA5539EB01DDF226E119FC10E48B /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		76BA36410D5F7515E295463571C91CEC /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF2B558B5B0C8137E223016FC64DD2 /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7A69AAB6180ED891007992AF99788E5F /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435E83E29275FC7BD8C97EAD31BA8 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7AF516B98D45391B909D507D0244104C /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987F43E61228D12D5D8DCAEC717CD8C /* ConstraintDescription.swift */; };
-		7B271908349DB85715169F3718EF5FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		7D42390CDB4FA147504B03DA2A174A0C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F2F48B6B23B4FBF4EBC6FAA8BCEAA /* ConstraintViewDSL.swift */; };
 		7DC45887A81B1285456E8B98A711BA8B /* DSL+Require.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D37FED7933E7CA11E7C76D4FDE35B /* DSL+Require.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7F04D429D299606BB9FC965AC244082F /* CurrentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2069A757963BAB3C9CA39B08B5D50056 /* CurrentSpec.swift */; };
@@ -144,12 +148,12 @@
 		9D0FB8EB3BD120493784D3AC29678845 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F363356A780928CD1F5A3779BE33B55 /* Filter.swift */; };
 		9D31C2E2EFB60CED689C68BDCD12ED4D /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD94B6CD5B7DDA4B3AB77690CB5FAA1 /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		9DD14DD89B84DFD663901CC7F0801F8C /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = BABCE79327FD9241944BFE3374502796 /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9E0045B41BFE697DB4ADE151228024D2 /* SnapKit_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */; };
+		9E0045B41BFE697DB4ADE151228024D2 /* SnapKit-SnapKit_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */; };
 		A10CBFEC5CEB2AF417B8FC9B646E4F6C /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391505ACF76540D455DCFEDBA1E08CC1 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A167F043C2CFABAB8B8769E7DF2169BA /* SubclassDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D295D1DD1D7EE82D1F8FB5D534B15A /* SubclassDetection.swift */; };
 		A1AE7FC0D57CA0F257A0D82C2F45D062 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC11D90689A6C844591446FC869D42A /* QuickSpecBase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A3A2B108B974D4972A8AADE79B467C8C /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D12BD9AE89F1813672E398A43DD2684 /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4BA2214734C3F9BA7B29111A3ECB53F /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDE161246A5492616ABDE73C121A0A /* SatisfyAnyOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		A71B4EFC6E1A8CAA2E504DAA2382FCB8 /* MMTToolForBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91F807FC7A0AE1103111233A765DF8A /* MMTToolForBluetooth.swift */; };
 		A72E6EC24DCAE0BF3B0FCA5B51CA76AD /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D020D295645D500A87AFF412A1396D5 /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A7E2198EB7070BEE958C9CB2C1915D37 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D8607EED14F3BA88B481B92DCCD83 /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A9D2D4EAF689DDE99B16E419CFDB8DEB /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CBF7E94339330F8292FD9BA05A222F /* Nimble-dummy.m */; };
@@ -160,7 +164,8 @@
 		AEF039BB3E38A70D0EEDC2D0A8073991 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF09F9501D899ACEB98BAAE863E9CD /* ExampleMetadata.swift */; };
 		AF760C78F1C7E11BF7CB9E9B29903530 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF26E1E3A7A9902128D2203E9956C4 /* ConstraintInsets.swift */; };
 		B0875E3AB8718E7DFE5C53497C02A15E /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF08BC3825FC3F1B4B22183CA8B50B /* ConstraintLayoutSupport.swift */; };
-		B773BEDA40DF794BD747A3F2EF78EBA3 /* MMTToolForBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6FB7D8D6B36522413B3460BF6B354 /* MMTToolForBluetooth-dummy.m */; };
+		B49A08F2F92AC82645C9169B6D816F22 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = 306C4C25477CC635DA4DF79C35657DF2 /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8B519545A63628B64263C9504CC5190 /* CwlCatchExceptionSupport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED1E04EFC383A5FE452A1A1A8C7EEC5 /* CwlCatchExceptionSupport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B903049E7C1BED7918DAB208754107C7 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E98A3342563B90E9A8F8AB1FEA93443 /* ConstraintMakerFinalizable.swift */; };
 		BA2FB695DEB0D179253EEB8DFCE3578B /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF982CB9550F36D370D093DDC9462E /* SnapKit-dummy.m */; };
 		BC4CF6937F894CC9121B3BAF10AE8D14 /* CwlPreconditionTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C581003FEAB89DA382CEB6DB723F2560 /* CwlPreconditionTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,6 +186,7 @@
 		CE593943A9E7CF83822CF60304BCAD43 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2239A689241F259F56C51A56B1D8F /* ConstraintConstantTarget.swift */; };
 		D199E4E818D11F9E112A847BCF4D4D85 /* StopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E89DDB913AF05E890F6AEC49AC9FF /* StopTest.swift */; };
 		D4218DA55B2BA45937589200CC0DF1FB /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDA071E3A94A918765559679993A0 /* ConstraintMakerExtendable.swift */; };
+		D4D2E8FD9DF99EB515F600E4CD934F3C /* CwlCatchExceptionSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2431D937EC4E055DD90A0C1B0D5FED /* CwlCatchExceptionSupport-dummy.m */; };
 		D6BDA4F87E9CBA049938A87C4BF226A0 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C2550A5E4CDFDD045154655B47D352 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D930E5A9D0B6D3C26546116F5B58828C /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47D692C348BBA9BE9E2C10EBC74AD3 /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DBA4803F4765E1650B8C6841157F5D73 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DC36D72B9A782A155AEA1A250B829 /* ConstraintPriorityTarget.swift */; };
@@ -189,12 +195,10 @@
 		E0CA82AC5684A80CAA4465F23BBD0DAB /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9E807F2FE37F9218A9647D9EE9B6F9 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2197820C090B293AD922CAE4BA5C869 /* Negation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A9D27DE00BBDE3B0D4BFE14E314E1F /* Negation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E29CC511490F4A1F091D48D8FC6489C4 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A01E69AB979ACE0F5CC35B1EF81B3 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		E319B6C1EE780C5A1D65C9DD050A776D /* CwlCatchExceptionSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2431D937EC4E055DD90A0C1B0D5FED /* CwlCatchExceptionSupport-dummy.m */; };
 		E32A1F3DD67E2E985E18B4FC270BDEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */; };
 		E37671A03B4C17A1CF3766A6125833BB /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CD90B7C22AA87301128C909089EDE6 /* ConstraintDirectionalInsetTarget.swift */; };
 		E3D779DEE753C0B0D33BA8E73A980265 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F861A4D2E17A13CF1CD85022AB4B483 /* ConstraintLayoutGuide+Extensions.swift */; };
 		E4CA95EBA8B21AFD47EA6AC3B46346F1 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04633D37F125793A926EA199CB32763 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		E50305D739F07A9404C1CF90686FDDA9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AC24AF1CB200C2AB0932BDD624BC6524 /* PrivacyInfo.xcprivacy */; };
 		E69AEF80DBBE6757CCA39668E3A7885E /* AsyncExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD25EB66EE7149C469CF67E1F3FB29 /* AsyncExampleGroup.swift */; };
 		E8BDCC17E55F5F22A039D70F0F415897 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C19D92549B1AAEF78BD3D67383F2B1 /* World.swift */; };
 		EB390F81B579F85D5652B5124C741C4F /* AsyncSpec+testMethodSelectors.m in Sources */ = {isa = PBXBuildFile; fileRef = 108DE8AA1531D7EBD7AC690EC9624FA9 /* AsyncSpec+testMethodSelectors.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -215,129 +219,127 @@
 		F9EBA65892D78A31C068D727D84BCB88 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF04776C5764D038647D10FDE3F0A0 /* ConstraintConfig.swift */; };
 		FA43C178B542E083DACED43E14346B8B /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C32588EE0BED8A4AEC6D4657B83C5AC /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB21B4BEB9A9E57EDDD216D90A94C812 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFDD3865D70448126A3580E8E95CD9A /* utils.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		FBD054934ADF696B12579A3200ED928B /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D12BD9AE89F1813672E398A43DD2684 /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC778BB2D89F5D73C65C6982CA2956FD /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D315EBE1829F0D3CB0ECAD3EEE7E3 /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		50CB35E87D74D1EB1748471B127DC6FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4D853F6FBAB5A9BDBE843E4EFB22EB7;
-			remoteInfo = CwlPreconditionTesting;
-		};
-		5970259B46B60D4BC81634343FB8894B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4D853F6FBAB5A9BDBE843E4EFB22EB7;
-			remoteInfo = CwlPreconditionTesting;
-		};
-		66EDB018C78077D2D7A6E2119FFE4659 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 436540B1AF96634EEEA19BE90DA01BE6;
-			remoteInfo = MMTToolForBluetooth;
-		};
-		786C80DF1812D61319DA274DCADCDF41 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA3D99499260B4C146BBB22670C1D8AD;
-			remoteInfo = CwlCatchExceptionSupport;
-		};
-		797E1A25743B9B3BE263FCA11A2533D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BBD87E27EAD36B90D168213ED6DC32C;
-			remoteInfo = CwlMachBadInstructionHandler;
-		};
-		7A2B3C25929C482A643EDF448E029291 /* PBXContainerItemProxy */ = {
+		0AEC219361009ADB91ED7C9EC0D02FA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FEF221693A93F8066CE7613F1B29A9C5;
 			remoteInfo = "Pods-MMTToolForBluetooth_Example";
 		};
-		7A81AB2947E7C8627992B50A9684F177 /* PBXContainerItemProxy */ = {
+		2C0CA5B7BF7B058367AEFC2CF0C5C6A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 308B5C440C446909122081D367A27A8F;
 			remoteInfo = CwlCatchException;
 		};
-		940920235F3180D00EE8FFBC38D2E97E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA3D99499260B4C146BBB22670C1D8AD;
-			remoteInfo = CwlCatchExceptionSupport;
-		};
-		992CD8D933CFDD7D44B0564F7D9FA892 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F13695E06195A78EA8A95F8C7ED0D2F;
-			remoteInfo = Nimble;
-		};
-		AB275425B895BFCC3BCA198D46D0F948 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
-			remoteInfo = Quick;
-		};
-		B353B561A87F23767071226908319A02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB8B23AD889CF5BE4A85CD0D8EF2DF99;
-			remoteInfo = CwlPosixPreconditionTesting;
-		};
-		CEA8A1CBD9747476CAAFBB89DD33CBEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
-		};
-		D2DCAAC81539FC65F43D68601C293C3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A8DB685241263AFDF5E6B20FE67B93A;
-			remoteInfo = "SnapKit-SnapKit_Privacy";
-		};
-		D4F42514226522DE76001A334C5908C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB8B23AD889CF5BE4A85CD0D8EF2DF99;
-			remoteInfo = CwlPosixPreconditionTesting;
-		};
-		E6086F660D04AECC74E0C1B513A31B90 /* PBXContainerItemProxy */ = {
+		36A7E41FEAD38794315E3F04E05D08B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3BBD87E27EAD36B90D168213ED6DC32C;
 			remoteInfo = CwlMachBadInstructionHandler;
 		};
-		ED9371AFC145F428BC1FA42984D1F2DB /* PBXContainerItemProxy */ = {
+		3BFC9A6B94F61E89D67EAE863921F614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D853F6FBAB5A9BDBE843E4EFB22EB7;
+			remoteInfo = CwlPreconditionTesting;
+		};
+		4294839685D9EA7EF6090113DB9528A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8DB685241263AFDF5E6B20FE67B93A;
+			remoteInfo = "SnapKit-SnapKit_Privacy";
+		};
+		486E7311D73F4DE6DE9C8607F8E795CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
+			remoteInfo = Quick;
+		};
+		494D9EC8645513F82AF683DB5C98EC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3D99499260B4C146BBB22670C1D8AD;
+			remoteInfo = CwlCatchExceptionSupport;
+		};
+		5377AB6C0155D1F5B17459D078CBF8C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D853F6FBAB5A9BDBE843E4EFB22EB7;
+			remoteInfo = CwlPreconditionTesting;
+		};
+		7ABC75AFED5A17F042C581BC196B13B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8B23AD889CF5BE4A85CD0D8EF2DF99;
+			remoteInfo = CwlPosixPreconditionTesting;
+		};
+		993A1A8FC65CCE6C02CB1EB13B4C5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F13695E06195A78EA8A95F8C7ED0D2F;
+			remoteInfo = Nimble;
+		};
+		B42B0331AF3A6D065E3841F18E660071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8B23AD889CF5BE4A85CD0D8EF2DF99;
+			remoteInfo = CwlPosixPreconditionTesting;
+		};
+		B580C7961827A9CC24E2D4058D2C57C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436540B1AF96634EEEA19BE90DA01BE6;
+			remoteInfo = MMTToolForBluetooth;
+		};
+		B6029102A8BBD0F9445DEE56600F3ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3D99499260B4C146BBB22670C1D8AD;
+			remoteInfo = CwlCatchExceptionSupport;
+		};
+		B761063FFEDE903BA82D31B9A45E7A24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 308B5C440C446909122081D367A27A8F;
 			remoteInfo = CwlCatchException;
 		};
+		D621D161FFE94BDA41042006621FB390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BBD87E27EAD36B90D168213ED6DC32C;
+			remoteInfo = CwlMachBadInstructionHandler;
+		};
+		ED96A5E22748C9CAE784203D591EA204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00DB1E981397BFE99BD11B3180CFADC2 /* CwlPreconditionTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CwlPreconditionTesting.debug.xcconfig; sourceTree = "<group>"; };
 		00EC9AD8F63EC8E0581334E66018D757 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
-		020B0222FB78759804F34015B27080C7 /* MMTToolForBluetooth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTToolForBluetooth-Info.plist"; sourceTree = "<group>"; };
 		04059FEAA32119D8ED82E5275C0F10BA /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		040887F5171533376791809D355FB6CD /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
 		042CCB95785A13A39FCD1B3FAED57656 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
@@ -345,13 +347,14 @@
 		075CDF63EE773716E0857C6E0621A9F0 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		078886E539431D8A4F50D938A3F21784 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		07950599F5200A71E389BE4610F24BA2 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
-		0C63781C5BA916D1F18824F71AC5749B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E10A7A13C02E0CA12E82C39B1890403 /* MMTToolForBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForBluetooth.debug.xcconfig; sourceTree = "<group>"; };
+		0BF79CB1482BEAC2D9F505EE3DDF20F7 /* MMTToolForBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		0D631E9908483F9525A6B3F36F16CC61 /* Quick */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E33EABAD1EE432A087A805E83C56EFF /* MMTToolForBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForBluetooth.release.xcconfig; sourceTree = "<group>"; };
 		0ED2239A689241F259F56C51A56B1D8F /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		0F2DF48C4B77462D00FD0744B2B2EEE9 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
-		1071C61FF7536E1EFD00B87A8CD135CD /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		1071C61FF7536E1EFD00B87A8CD135CD /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		108DE8AA1531D7EBD7AC690EC9624FA9 /* AsyncSpec+testMethodSelectors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AsyncSpec+testMethodSelectors.m"; path = "Sources/QuickObjectiveC/AsyncSpec+testMethodSelectors.m"; sourceTree = "<group>"; };
+		111C19C6F8A8165DCAF263BD84865059 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		115BA028524EFC5195DCE696B0C2989F /* Pods-MMTToolForBluetooth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForBluetooth_Example.release.xcconfig"; sourceTree = "<group>"; };
 		124AB841931BEA5D29918FA5CA58AEE5 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		12724B1029A079054D74F23FBF896EA3 /* Pods-MMTToolForBluetooth_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForBluetooth_Example-Info.plist"; sourceTree = "<group>"; };
@@ -364,7 +367,7 @@
 		1FA3216A0F437886CE5A4A366C0E6C64 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		2069A757963BAB3C9CA39B08B5D50056 /* CurrentSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentSpec.swift; path = Sources/Quick/CurrentSpec.swift; sourceTree = "<group>"; };
 		2175C8690CD437AD5B06CF1B5E53115F /* Pods-MMTToolForBluetooth_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForBluetooth_Tests-Info.plist"; sourceTree = "<group>"; };
-		220D1365CED5CB83C4C0CE1E3DABD3B0 /* CwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220D1365CED5CB83C4C0CE1E3DABD3B0 /* CwlCatchExceptionSupport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CwlCatchExceptionSupport; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2379A47B0D71C3B53427DD99B0A7C530 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
 		23CD90B7C22AA87301128C909089EDE6 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		24441C5D827E419E04CF1488D82B5FA1 /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
@@ -393,20 +396,20 @@
 		36D295D1DD1D7EE82D1F8FB5D534B15A /* SubclassDetection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubclassDetection.swift; path = Sources/Quick/SubclassDetection.swift; sourceTree = "<group>"; };
 		37BE60823E2BE5BC01B38E725EB93EA1 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
 		380F25D42EB5157507A1EB2511618342 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		390E2DF66D5F5EE94AD38678EE98DF62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		391505ACF76540D455DCFEDBA1E08CC1 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		3B77B8CB838D7B25D1A659C7189A1DDC /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		3C5D1DFE78E03B7AF9E9E43E0B93FFF3 /* MMTToolForBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMTToolForBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5D1DFE78E03B7AF9E9E43E0B93FFF3 /* MMTToolForBluetooth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMTToolForBluetooth; path = MMTToolForBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA6313F4C32B5B4A79E0C0A18A92289 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		3DC4DDCEC098535A908153B5E131F365 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		3E5DB3CAEDA8B72693D5183C59FCF241 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3F62ACFD18E70A54BE08B72F9D162EE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3F73E6458FE6C437BE2B8C8BBAD07CFB /* CwlMachBadInstructionHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CwlMachBadInstructionHandler.modulemap; sourceTree = "<group>"; };
 		401D8607EED14F3BA88B481B92DCCD83 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		4069AF48DDF6F7D78B44270190C5187F /* BeResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeResult.swift; path = Sources/Nimble/Matchers/BeResult.swift; sourceTree = "<group>"; };
 		43669205D94D2F10CCCE24B6C9214EE7 /* QuickObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickObjCRuntime.h; path = Sources/QuickObjCRuntime/include/QuickObjCRuntime.h; sourceTree = "<group>"; };
 		43BC914C82D8DBF3706BE3E254DE97D3 /* CwlPosixPreconditionTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CwlPosixPreconditionTesting-dummy.m"; sourceTree = "<group>"; };
 		44A728E8875893320E4A82F5F0B19B18 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		450EC854A749635BB3EFDA9ACF8CB03D /* Pods_MMTToolForBluetooth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForBluetooth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450EC854A749635BB3EFDA9ACF8CB03D /* Pods-MMTToolForBluetooth_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMTToolForBluetooth_Tests"; path = Pods_MMTToolForBluetooth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B348E5332760FA6B5528417306CB1B /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		46C157E0427BE64879E4C09AF139A8C9 /* NimbleTimeInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleTimeInterval.swift; path = Sources/Nimble/Utils/NimbleTimeInterval.swift; sourceTree = "<group>"; };
 		46D07663FC7C4C0983D5D77D547BCE99 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
@@ -416,7 +419,6 @@
 		4A7775C2F3813731E660963087AE6451 /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		4B261511DBC5147A07FC66F355C2480A /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		4BF52C868C6E2230660C6AD17F8C7141 /* CwlPreconditionTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CwlPreconditionTesting.modulemap; sourceTree = "<group>"; };
-		4C03A51965F08B0CF1D7D3D41E338533 /* MMTToolForBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForBluetooth-prefix.pch"; sourceTree = "<group>"; };
 		4E0D37FED7933E7CA11E7C76D4FDE35B /* DSL+Require.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Require.swift"; path = "Sources/Nimble/DSL+Require.swift"; sourceTree = "<group>"; };
 		51F4BB865C2081593903156FB994C101 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		5211D17C11A0685983DD7AF1EAFEBDA2 /* Equal+TupleArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Equal+TupleArray.swift"; path = "Sources/Nimble/Matchers/Equal+TupleArray.swift"; sourceTree = "<group>"; };
@@ -436,7 +438,6 @@
 		5D2AB442747156BDD7360328C7F2F66D /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/include/DSL.h; sourceTree = "<group>"; };
 		5DC87AA09231C147FD518950929BD6FB /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
 		5F861A4D2E17A13CF1CD85022AB4B483 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		5FF0914A1B88454C8B293EDD56E84FB4 /* MMTToolForBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForBluetooth.release.xcconfig; sourceTree = "<group>"; };
 		62BE1F2A9A07B5E2477C228173917BB1 /* Requirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requirement.swift; path = Sources/Nimble/Requirement.swift; sourceTree = "<group>"; };
 		6301F7E8D0A3C8E33D55BD465AC92AB1 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
 		63ACBE471E992A7620705ADAE0120C0E /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
@@ -447,15 +448,17 @@
 		6C32588EE0BED8A4AEC6D4657B83C5AC /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/include/NMBStringify.h; sourceTree = "<group>"; };
 		6CB71B0E32485C905A49FAB82AFE9C62 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		6CB80C17AE0A8DDC46D5DF860CB71A60 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
+		6DFFBF748D5A291EC411048117E17086 /* MMTToolForBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForBluetooth.modulemap; sourceTree = "<group>"; };
 		6E4F6204126085EAFBF1A28F8E0674AE /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		6E98A3342563B90E9A8F8AB1FEA93443 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		6ECA2A5AFFC8531C6920F58F352D4C1E /* CwlCatchBadInstructionPosix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstructionPosix.swift; path = Sources/CwlPosixPreconditionTesting/CwlCatchBadInstructionPosix.swift; sourceTree = "<group>"; };
-		6F3CE27C454FC3253BCEF8E890EB358C /* MMTToolForBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForBluetooth.modulemap; sourceTree = "<group>"; };
 		7169567FF121DF826DB2E8058D7A3E73 /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist"; sourceTree = "<group>"; };
 		718259CE7F55C6553FD8C65BFD3E9683 /* Pods-MMTToolForBluetooth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTToolForBluetooth_Example.modulemap"; sourceTree = "<group>"; };
 		718A8C7A8B303F9301CD404E3463BD2C /* CwlMachBadInstructionHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CwlMachBadInstructionHandler-Info.plist"; sourceTree = "<group>"; };
 		7214653142D9A420415539CCEE03E5B9 /* AsyncDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncDSL.swift; path = Sources/Quick/DSL/AsyncDSL.swift; sourceTree = "<group>"; };
 		73A3250EEDD3296BC272BD11D827FE0D /* CwlCatchException-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CwlCatchException-umbrella.h"; sourceTree = "<group>"; };
+		73DE5E0204E2820C0D0B1EDC1BC3E805 /* MMTToolForBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForBluetooth-dummy.m"; sourceTree = "<group>"; };
+		752F62FFD80933961ED1B1560CCA7B16 /* MMTToolForBleLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTToolForBleLog.swift; path = MMTToolForBluetooth/Classes/MMTToolForBleLog.swift; sourceTree = "<group>"; };
 		75DFDA071E3A94A918765559679993A0 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		7657DFC528FD2F3C461E4613901C1DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76CDC498BD25CF7B078FD4FFDB78FF29 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
@@ -467,6 +470,7 @@
 		80CD25EB66EE7149C469CF67E1F3FB29 /* AsyncExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncExampleGroup.swift; path = Sources/Quick/Async/AsyncExampleGroup.swift; sourceTree = "<group>"; };
 		830FA6A3F0A64318423B7F51E7E9A6FC /* Matcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matcher.swift; path = Sources/Nimble/Matchers/Matcher.swift; sourceTree = "<group>"; };
 		845C7E42A74D6E2AE56B57C0D1962461 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
+		850FDECF41BB32B14E6E363465C91412 /* MMTToolForBluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MMTToolForBluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8764BB3101D0399D5BEF2E41E63EAD5C /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		8908F186163ED405770F40A82BD8FCA6 /* AsyncTimerSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncTimerSequence.swift; path = Sources/Nimble/Utils/AsyncTimerSequence.swift; sourceTree = "<group>"; };
 		8987F43E61228D12D5D8DCAEC717CD8C /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
@@ -490,13 +494,13 @@
 		96B72AAFEDA8E1F9869FA82C7DE50033 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		97712D496ED447DF1E57F2B3BFEEAC09 /* CwlPosixPreconditionTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CwlPosixPreconditionTesting-Info.plist"; sourceTree = "<group>"; };
 		97801DCFCB317354B064DEE0148734CF /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98107C166AE928E912E63BDAB25EED4F /* QCKConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QCKConfiguration.swift; path = Sources/Quick/Configuration/QCKConfiguration.swift; sourceTree = "<group>"; };
 		99C5D4CDB69EDA4041CFDC6D2BB909F3 /* AsyncAllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncAllPass.swift; path = Sources/Nimble/Matchers/AsyncAllPass.swift; sourceTree = "<group>"; };
 		9B45C9CFF327C4EFC816F614D9DF766D /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		9BFB0CED04D320DA960719A39EBEC05B /* CwlPosixPreconditionTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CwlPosixPreconditionTesting-umbrella.h"; sourceTree = "<group>"; };
 		9D12BD9AE89F1813672E398A43DD2684 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCD831821722177546D6EA3F81A1E8D /* CwlMachBadInstructionHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CwlMachBadInstructionHandler.release.xcconfig; sourceTree = "<group>"; };
 		9F363356A780928CD1F5A3779BE33B55 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		9F8496E985C5C35A341648F32006106A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
@@ -511,32 +515,33 @@
 		A63DD4BD3C746D7F97F716040624E07E /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		A6754D1781D6DB113538CA2820465355 /* Quick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.release.xcconfig; sourceTree = "<group>"; };
 		A7E763E6037E946390498B03EBFC3BCB /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
+		A7EC7AE6F633D3CAB1A43A48077E9E77 /* MMTToolForBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForBluetooth.debug.xcconfig; sourceTree = "<group>"; };
 		A8EF4D7713F98A3EBEB131B624338B2A /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
-		A91F807FC7A0AE1103111233A765DF8A /* MMTToolForBluetooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTToolForBluetooth.swift; path = MMTToolForBluetooth/Classes/MMTToolForBluetooth.swift; sourceTree = "<group>"; };
 		AA0B808261657A30C7785E3EA44E1D00 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
 		AAC4F068A421C5F8C4B2DB383DFA7636 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		AB42F41303DC01B4FAAC3715CF67A0A7 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
-		AC24AF1CB200C2AB0932BDD624BC6524 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AC24AF1CB200C2AB0932BDD624BC6524 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AC9659281D49BEBF4E1D199D66F673FE /* CwlMachBadInstructionHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CwlMachBadInstructionHandler-umbrella.h"; sourceTree = "<group>"; };
 		ACC11D90689A6C844591446FC869D42A /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickObjCRuntime/QuickSpecBase.m; sourceTree = "<group>"; };
 		ADFDD3865D70448126A3580E8E95CD9A /* utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = utils.swift; path = Sources/NimbleSharedTestHelpers/utils.swift; sourceTree = "<group>"; };
+		AE83D56D959B47CF7B640FC2991B5AF7 /* MMTToolForBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForBluetooth-umbrella.h"; sourceTree = "<group>"; };
 		AF0D81FA1F7EC81105D08EBA130411E7 /* AsyncExample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncExample.swift; path = Sources/Quick/Examples/AsyncExample.swift; sourceTree = "<group>"; };
 		AF492BE7ABA70001C67FE5E41137EB1E /* Pods-MMTToolForBluetooth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTToolForBluetooth_Example-umbrella.h"; sourceTree = "<group>"; };
 		B04633D37F125793A926EA199CB32763 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
+		B0CEDE5AB8EF8636ADBA0E7C1FAF1265 /* MMTToolForBluetooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTToolForBluetooth.swift; path = MMTToolForBluetooth/Classes/MMTToolForBluetooth.swift; sourceTree = "<group>"; };
 		B20F8E569523A882E32D210075BC2C93 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		B28AF10773790C4174D932CDE909C6CE /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Nimble/Matchers/Map.swift; sourceTree = "<group>"; };
 		B3F5FC0B941688E605A3279EA941A9DD /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		B4D389128FD10F6533CE51B611A07047 /* ElementsEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementsEqual.swift; path = Sources/Nimble/Matchers/ElementsEqual.swift; sourceTree = "<group>"; };
 		B5C3A300D16E22110F8B7875BF7706F1 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		B8EF2AC48C93A8CE1B169F07D7C540D0 /* Pods-MMTToolForBluetooth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMTToolForBluetooth_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SnapKit-SnapKit_Privacy"; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABCE79327FD9241944BFE3374502796 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
-		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE263041362D074978BB3B577DF0A05 /* Nimble */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1E89DDB913AF05E890F6AEC49AC9FF /* StopTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StopTest.swift; path = Sources/Quick/StopTest.swift; sourceTree = "<group>"; };
 		BBD54E3D3DD68F24138251A08143804C /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		BC6BEA476178F23E9B1E515F7B3BDC89 /* PollAwait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PollAwait.swift; path = Sources/Nimble/Utils/PollAwait.swift; sourceTree = "<group>"; };
 		BC8DC36D72B9A782A155AEA1A250B829 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		BCF6FB7D8D6B36522413B3460BF6B354 /* MMTToolForBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForBluetooth-dummy.m"; sourceTree = "<group>"; };
 		BD2F94228C95B7EA330491DA08FA4DD5 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		BFD64C96A0A5127EC3BF6828BA1031D8 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		C0C1715EA083C1C902AC6103496D7C66 /* CwlCatchExceptionSupport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CwlCatchExceptionSupport-prefix.pch"; sourceTree = "<group>"; };
@@ -550,20 +555,19 @@
 		CA2A01E69AB979ACE0F5CC35B1EF81B3 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		CAC9CBF64A9F249182045357BA7CB939 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		CBE5AEB33CA890831626EAFE2205B327 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		CC56497384E780278F916D6C57EA4951 /* CwlPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC56497384E780278F916D6C57EA4951 /* CwlPreconditionTesting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CwlPreconditionTesting; path = CwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2E12AEC1893D843B26CF7FCE5FF2EC /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
 		CD837022E317CC2DEC857D5AAF2C6434 /* AsyncWorld.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncWorld.swift; path = Sources/Quick/Async/AsyncWorld.swift; sourceTree = "<group>"; };
 		CF1F6C576CF9016D17DFD110CA8B3D36 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		CF756305A8C02527824F2372BDCEF411 /* MMTToolForBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForBluetooth-umbrella.h"; sourceTree = "<group>"; };
 		CF7F200F12D3CCB06BB9F4CEE6836C57 /* Polling+AsyncAwait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Polling+AsyncAwait.swift"; path = "Sources/Nimble/Polling+AsyncAwait.swift"; sourceTree = "<group>"; };
 		CFC21EA34F845E2E02E5F0BF484ECF40 /* AsyncBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncBehavior.swift; path = Sources/Quick/Async/AsyncBehavior.swift; sourceTree = "<group>"; };
 		D065247D2446238D7EE4C6CA3DD9C7C7 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
-		D2AD834000B280096FEB80FBEBD9A414 /* CwlPosixPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPosixPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AD834000B280096FEB80FBEBD9A414 /* CwlPosixPreconditionTesting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CwlPosixPreconditionTesting; path = CwlPosixPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DF26E1E3A7A9902128D2203E9956C4 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		D3130E23F52FCF67F859B36DD0552DD6 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
+		D31572D65A7C1C4DA35055D7CB0B1FEA /* MMTToolForBleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTToolForBleManager.swift; path = MMTToolForBluetooth/Classes/MMTToolForBleManager.swift; sourceTree = "<group>"; };
 		D3317CF91937082676877A8CE4A52D43 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
 		D389D0614D95794590DCCFD8E169439C /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
-		D3C34A28A212E7DCD988933499F99294 /* MMTToolForBluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForBluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D3EDADBE226A64EF730D858CB6CD7EAA /* AsyncWorld+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AsyncWorld+DSL.swift"; path = "Sources/Quick/DSL/AsyncWorld+DSL.swift"; sourceTree = "<group>"; };
 		D4C2550A5E4CDFDD045154655B47D352 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		D65DCDB1DE0A7B9A342213BC9F4AC852 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
@@ -580,12 +584,14 @@
 		DBF845EA4CC229CED1D5641BF25FEBF6 /* Pods-MMTToolForBluetooth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForBluetooth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDA70C848951ABE13765531348DC45EE /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		DF0A9FB371EB549BF865933F3B4A07F0 /* Pods-MMTToolForBluetooth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTToolForBluetooth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0BC8BB0FE4725CF87EB0A9F5D400FD6 /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1176A8E7C8F4162FFCA404BE6EEBB1C /* CwlMachBadInstructionHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BC8BB0FE4725CF87EB0A9F5D400FD6 /* CwlCatchException */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CwlCatchException; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1176A8E7C8F4162FFCA404BE6EEBB1C /* CwlMachBadInstructionHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CwlMachBadInstructionHandler; path = CwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E241CA5539EB01DDF226E119FC10E48B /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		E315D0DA014345A8CDE8D3768DD91A0D /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		E3A340E7E144672536BD6CF442F3FD94 /* CwlPosixPreconditionTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CwlPosixPreconditionTesting.modulemap; sourceTree = "<group>"; };
+		E3A449E8A9022F93FEB45EA7929F359B /* MMTToolForBluetooth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTToolForBluetooth-Info.plist"; sourceTree = "<group>"; };
 		E3CF9D13C8024A7AA59098BBF27A5A04 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
+		E596B491268DFAB68606372A7F99776D /* MMTToolForBleDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTToolForBleDevice.swift; path = MMTToolForBluetooth/Classes/MMTToolForBleDevice.swift; sourceTree = "<group>"; };
 		E75AD7E36F73C20CF669AC4744930364 /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
 		E8BB7B691536D33EC196578F374FCD93 /* CwlMachBadInstructionHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CwlMachBadInstructionHandler.debug.xcconfig; sourceTree = "<group>"; };
 		E8BCA6E4E1E6DEF302CDB92BB3805E40 /* AsyncExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncExpression.swift; path = Sources/Nimble/AsyncExpression.swift; sourceTree = "<group>"; };
@@ -593,7 +599,7 @@
 		EA08530183125918750C23B4EE0D0E05 /* CwlCatchException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CwlCatchException-dummy.m"; sourceTree = "<group>"; };
 		EA873DE8E5CEDCDC749EF600059CD33F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
 		EB41193174B47B18C6E7E6B8ECE4F98E /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
-		EC7B09515F6E9173A60B15B6AC6900AC /* Pods_MMTToolForBluetooth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForBluetooth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7B09515F6E9173A60B15B6AC6900AC /* Pods-MMTToolForBluetooth_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMTToolForBluetooth_Example"; path = Pods_MMTToolForBluetooth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BF267780E12C9C534B5215CD494B9E /* BeginWithPrefix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWithPrefix.swift; path = Sources/Nimble/Matchers/BeginWithPrefix.swift; sourceTree = "<group>"; };
 		F4066D5BA27B6259543D8F7DCE942F74 /* CwlCatchException.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CwlCatchException.modulemap; sourceTree = "<group>"; };
 		F50122AD9D977CA4130B7BA92FBA0EE8 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
@@ -637,26 +643,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3364867DAC77B53E0532411036FB322F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				716CE1BA5C4CE0A2A4ADA7D55D7FB87E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3C8DF729861A7DBFA5E8465276FAEEC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E2834B7E4B59C0AC4CD61B89BABDB78 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4355140E2746EB45744165B05932997C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +657,13 @@
 			files = (
 				29EA39ED87CF8C2D472CCD5DEF2ABFED /* Foundation.framework in Frameworks */,
 				4498BD88926589442ABD6639AF6A2983 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F320E16D10A7BE9185BA7C5A5CCDA43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,6 +683,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92C0326A4FF530AAFA1923BB6A377E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1ED5A8ABACE02DFDD48C8F7CAAAA44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D8BFD9AD424B7A73EAB7915EF1D2573 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -693,20 +699,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2647CB1A329E0D4607CA330EB135B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA817C36FEFF7FC5D826EE27BE7EBE8 /* CoreBluetooth.framework in Frameworks */,
+				73D9CDD90BA0AFAA3B1EFF8CB58444A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D16666F04343002FE8F83CC5A2638356 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1381A0BA2CAA45F944E4AC7F1DC971F9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4B473F0E0B6458FAB5EF65FB52A9424 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				579B92F7FDA51CC309C744C432397AA2 /* CoreBluetooth.framework in Frameworks */,
-				7B271908349DB85715169F3718EF5FBA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,18 +734,8 @@
 				306C4C25477CC635DA4DF79C35657DF2 /* CwlCatchException.m */,
 				B091A1561439418FD958174E2F28D62D /* Support Files */,
 			);
+			name = CwlCatchExceptionSupport;
 			path = CwlCatchExceptionSupport;
-			sourceTree = "<group>";
-		};
-		234DB207A01D75976B0D1292947671DA /* MMTToolForBluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				A91F807FC7A0AE1103111233A765DF8A /* MMTToolForBluetooth.swift */,
-				36D0EF44536D1448EFEDE22BAAE68E9E /* Pod */,
-				6C5C7563D9FA7865AC28024F14DC7F3F /* Support Files */,
-			);
-			name = MMTToolForBluetooth;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		25E6DF67722618632AA4F3F4CD2DF706 /* Support Files */ = {
@@ -757,12 +753,12 @@
 			path = "../Target Support Files/CwlPosixPreconditionTesting";
 			sourceTree = "<group>";
 		};
-		36D0EF44536D1448EFEDE22BAAE68E9E /* Pod */ = {
+		467E222EC782FBCAEECBB1667D060F85 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3F62ACFD18E70A54BE08B72F9D162EE5 /* LICENSE */,
-				D3C34A28A212E7DCD988933499F99294 /* MMTToolForBluetooth.podspec */,
-				0C63781C5BA916D1F18824F71AC5749B /* README.md */,
+				390E2DF66D5F5EE94AD38678EE98DF62 /* LICENSE */,
+				850FDECF41BB32B14E6E363465C91412 /* MMTToolForBluetooth.podspec */,
+				111C19C6F8A8165DCAF263BD84865059 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -798,38 +794,31 @@
 			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
+		516272F186970AA2DFCD85FD500A3440 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E05A0018BB5FF22B7156A235A7540BC /* MMTToolForBluetooth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		694A8B71F3B11187533277CFE3767008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0BC8BB0FE4725CF87EB0A9F5D400FD6 /* CwlCatchException.framework */,
-				220D1365CED5CB83C4C0CE1E3DABD3B0 /* CwlCatchExceptionSupport.framework */,
-				E1176A8E7C8F4162FFCA404BE6EEBB1C /* CwlMachBadInstructionHandler.framework */,
-				D2AD834000B280096FEB80FBEBD9A414 /* CwlPosixPreconditionTesting.framework */,
-				CC56497384E780278F916D6C57EA4951 /* CwlPreconditionTesting.framework */,
-				3C5D1DFE78E03B7AF9E9E43E0B93FFF3 /* MMTToolForBluetooth.framework */,
-				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
-				EC7B09515F6E9173A60B15B6AC6900AC /* Pods_MMTToolForBluetooth_Example.framework */,
-				450EC854A749635BB3EFDA9ACF8CB03D /* Pods_MMTToolForBluetooth_Tests.framework */,
-				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
-				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */,
+				E0BC8BB0FE4725CF87EB0A9F5D400FD6 /* CwlCatchException */,
+				220D1365CED5CB83C4C0CE1E3DABD3B0 /* CwlCatchExceptionSupport */,
+				E1176A8E7C8F4162FFCA404BE6EEBB1C /* CwlMachBadInstructionHandler */,
+				D2AD834000B280096FEB80FBEBD9A414 /* CwlPosixPreconditionTesting */,
+				CC56497384E780278F916D6C57EA4951 /* CwlPreconditionTesting */,
+				3C5D1DFE78E03B7AF9E9E43E0B93FFF3 /* MMTToolForBluetooth */,
+				BAE263041362D074978BB3B577DF0A05 /* Nimble */,
+				EC7B09515F6E9173A60B15B6AC6900AC /* Pods-MMTToolForBluetooth_Example */,
+				450EC854A749635BB3EFDA9ACF8CB03D /* Pods-MMTToolForBluetooth_Tests */,
+				0D631E9908483F9525A6B3F36F16CC61 /* Quick */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6C5C7563D9FA7865AC28024F14DC7F3F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F3CE27C454FC3253BCEF8E890EB358C /* MMTToolForBluetooth.modulemap */,
-				BCF6FB7D8D6B36522413B3460BF6B354 /* MMTToolForBluetooth-dummy.m */,
-				020B0222FB78759804F34015B27080C7 /* MMTToolForBluetooth-Info.plist */,
-				4C03A51965F08B0CF1D7D3D41E338533 /* MMTToolForBluetooth-prefix.pch */,
-				CF756305A8C02527824F2372BDCEF411 /* MMTToolForBluetooth-umbrella.h */,
-				0E10A7A13C02E0CA12E82C39B1890403 /* MMTToolForBluetooth.debug.xcconfig */,
-				5FF0914A1B88454C8B293EDD56E84FB4 /* MMTToolForBluetooth.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MMTToolForBluetooth";
 			sourceTree = "<group>";
 		};
 		7084F3755B8D77289749F44A61E4B868 /* CwlPosixPreconditionTesting */ = {
@@ -838,6 +827,7 @@
 				6ECA2A5AFFC8531C6920F58F352D4C1E /* CwlCatchBadInstructionPosix.swift */,
 				25E6DF67722618632AA4F3F4CD2DF706 /* Support Files */,
 			);
+			name = CwlPosixPreconditionTesting;
 			path = CwlPosixPreconditionTesting;
 			sourceTree = "<group>";
 		};
@@ -916,6 +906,7 @@
 				AC010A96EE0BA1DAFA4C70084909A66E /* Resources */,
 				4EB011C2ECDF67E57FC279FE39F75113 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -928,7 +919,22 @@
 				A63DD4BD3C746D7F97F716040624E07E /* mach_excServer.h */,
 				7A49A0E9ABA22704C19BA5C3D380A794 /* Support Files */,
 			);
+			name = CwlMachBadInstructionHandler;
 			path = CwlMachBadInstructionHandler;
+			sourceTree = "<group>";
+		};
+		8E05A0018BB5FF22B7156A235A7540BC /* MMTToolForBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				E596B491268DFAB68606372A7F99776D /* MMTToolForBleDevice.swift */,
+				752F62FFD80933961ED1B1560CCA7B16 /* MMTToolForBleLog.swift */,
+				D31572D65A7C1C4DA35055D7CB0B1FEA /* MMTToolForBleManager.swift */,
+				B0CEDE5AB8EF8636ADBA0E7C1FAF1265 /* MMTToolForBluetooth.swift */,
+				467E222EC782FBCAEECBB1667D060F85 /* Pod */,
+				9E279D8FC5EC4580D91BA3CE4F868B09 /* Support Files */,
+			);
+			name = MMTToolForBluetooth;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9227D7656E13101B7591F84005281D33 /* Pods-MMTToolForBluetooth_Tests */ = {
@@ -946,6 +952,21 @@
 			);
 			name = "Pods-MMTToolForBluetooth_Tests";
 			path = "Target Support Files/Pods-MMTToolForBluetooth_Tests";
+			sourceTree = "<group>";
+		};
+		9E279D8FC5EC4580D91BA3CE4F868B09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DFFBF748D5A291EC411048117E17086 /* MMTToolForBluetooth.modulemap */,
+				73DE5E0204E2820C0D0B1EDC1BC3E805 /* MMTToolForBluetooth-dummy.m */,
+				E3A449E8A9022F93FEB45EA7929F359B /* MMTToolForBluetooth-Info.plist */,
+				0BF79CB1482BEAC2D9F505EE3DDF20F7 /* MMTToolForBluetooth-prefix.pch */,
+				AE83D56D959B47CF7B640FC2991B5AF7 /* MMTToolForBluetooth-umbrella.h */,
+				A7EC7AE6F633D3CAB1A43A48077E9E77 /* MMTToolForBluetooth.debug.xcconfig */,
+				0E33EABAD1EE432A087A805E83C56EFF /* MMTToolForBluetooth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMTToolForBluetooth";
 			sourceTree = "<group>";
 		};
 		AC010A96EE0BA1DAFA4C70084909A66E /* Resources */ = {
@@ -1038,6 +1059,7 @@
 				040887F5171533376791809D355FB6CD /* XCTestObservationCenter+Register.m */,
 				D14A5DFC859B9F68F301E3629BF41BB2 /* Support Files */,
 			);
+			name = Nimble;
 			path = Nimble;
 			sourceTree = "<group>";
 		};
@@ -1123,6 +1145,7 @@
 				4B261511DBC5147A07FC66F355C2480A /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				B4DFFE0D8FBDCD82B013F81AC1C1231F /* Support Files */,
 			);
+			name = Quick;
 			path = Quick;
 			sourceTree = "<group>";
 		};
@@ -1130,20 +1153,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D00B0FA86C2F8EFB52B612061C1BB5C2 /* Development Pods */,
+				516272F186970AA2DFCD85FD500A3440 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				495BC785D7EA991DB4F37E8A4F5F1B4A /* Pods */,
 				694A8B71F3B11187533277CFE3767008 /* Products */,
 				EFAFF8CF59AD0D91C9D4F77566D6795C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D00B0FA86C2F8EFB52B612061C1BB5C2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				234DB207A01D75976B0D1292947671DA /* MMTToolForBluetooth */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D14A5DFC859B9F68F301E3629BF41BB2 /* Support Files */ = {
@@ -1169,6 +1184,7 @@
 				2866F4EF3DD3C1C325C0163E3F2EBA09 /* CwlDarwinDefinitions.swift */,
 				FE12018736D2E6EF0B18138772DF5CB3 /* Support Files */,
 			);
+			name = CwlPreconditionTesting;
 			path = CwlPreconditionTesting;
 			sourceTree = "<group>";
 		};
@@ -1202,6 +1218,7 @@
 				DDA70C848951ABE13765531348DC45EE /* CwlCatchException.swift */,
 				F3F5DBF20C4CABCE0571C68003F8C33D /* Support Files */,
 			);
+			name = CwlCatchException;
 			path = CwlCatchException;
 			sourceTree = "<group>";
 		};
@@ -1259,19 +1276,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5931D781970500CD58CF7D5EBADAC0F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2B108B974D4972A8AADE79B467C8C /* CwlCatchException.h in Headers */,
+				B8B519545A63628B64263C9504CC5190 /* CwlCatchExceptionSupport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B1500FE995B9224E0AF0B42CE93C03B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				57C4F6EFB30DDD14E960AC2D6B34F904 /* SnapKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C5F406D514C333CB59ACD8B06C1AE2E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21AC45318BCBDD757DEEEAB972E64A49 /* MMTToolForBluetooth-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1301,12 +1319,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E237634B82305BB3BE0F93E6958F8D1A /* Headers */ = {
+		D5064568A31B5DB546C3FF0DC510CA13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD054934ADF696B12579A3200ED928B /* CwlCatchException.h in Headers */,
-				659AFEE11B2BBFF9766F5B59898DEAC1 /* CwlCatchExceptionSupport-umbrella.h in Headers */,
+				50987A172E6486907E64E840E06A8B70 /* MMTToolForBluetooth-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1349,11 +1366,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				5E6ADEA5CB13A26667C28D7004512A6B /* PBXTargetDependency */,
+				032EC8AE715F3D13AD519BE9CA03294E /* PBXTargetDependency */,
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		308B5C440C446909122081D367A27A8F /* CwlCatchException */ = {
@@ -1368,11 +1385,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				4AF62D3FC32EB113703CC145ECDD2C27 /* PBXTargetDependency */,
+				EE8C8590D20752BDE809CC37DC90C277 /* PBXTargetDependency */,
 			);
 			name = CwlCatchException;
 			productName = CwlCatchException;
-			productReference = E0BC8BB0FE4725CF87EB0A9F5D400FD6 /* CwlCatchException.framework */;
+			productReference = E0BC8BB0FE4725CF87EB0A9F5D400FD6 /* CwlCatchException */;
 			productType = "com.apple.product-type.framework";
 		};
 		3BBD87E27EAD36B90D168213ED6DC32C /* CwlMachBadInstructionHandler */ = {
@@ -1390,17 +1407,17 @@
 			);
 			name = CwlMachBadInstructionHandler;
 			productName = CwlMachBadInstructionHandler;
-			productReference = E1176A8E7C8F4162FFCA404BE6EEBB1C /* CwlMachBadInstructionHandler.framework */;
+			productReference = E1176A8E7C8F4162FFCA404BE6EEBB1C /* CwlMachBadInstructionHandler */;
 			productType = "com.apple.product-type.framework";
 		};
 		436540B1AF96634EEEA19BE90DA01BE6 /* MMTToolForBluetooth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E1CCC06C500C1F824BE6E94F0E2EE95 /* Build configuration list for PBXNativeTarget "MMTToolForBluetooth" */;
+			buildConfigurationList = 7B89595242FC62CE7132D13D80FB1D9C /* Build configuration list for PBXNativeTarget "MMTToolForBluetooth" */;
 			buildPhases = (
-				5C5F406D514C333CB59ACD8B06C1AE2E /* Headers */,
-				C8BB427291DC79E67E057B494511052E /* Sources */,
-				E4B473F0E0B6458FAB5EF65FB52A9424 /* Frameworks */,
-				ACBB68B81CA2DDDFEFEFB9C26704301B /* Resources */,
+				D5064568A31B5DB546C3FF0DC510CA13 /* Headers */,
+				47F69ABAB3CBEC51251E453868329BAA /* Sources */,
+				C2647CB1A329E0D4607CA330EB135B1A /* Frameworks */,
+				5DA3B3C7C4FBAC42D0616BAFB15F2DE2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1408,7 +1425,7 @@
 			);
 			name = MMTToolForBluetooth;
 			productName = MMTToolForBluetooth;
-			productReference = 3C5D1DFE78E03B7AF9E9E43E0B93FFF3 /* MMTToolForBluetooth.framework */;
+			productReference = 3C5D1DFE78E03B7AF9E9E43E0B93FFF3 /* MMTToolForBluetooth */;
 			productType = "com.apple.product-type.framework";
 		};
 		6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */ = {
@@ -1423,20 +1440,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				0E4E1723C336720155332D505ED951B2 /* PBXTargetDependency */,
+				0BB0B1E777C16A19E9BBC0FD54FEF7A7 /* PBXTargetDependency */,
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */;
+			productReference = BAE263041362D074978BB3B577DF0A05 /* Nimble */;
 			productType = "com.apple.product-type.framework";
 		};
 		8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF2345C976535B8A6CF7FFE35B559091 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
+			buildConfigurationList = 2D29A227B6A83F5A542054A8A8043BAA /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
 			buildPhases = (
-				E8267CFF542A655B0349DEA32F9D3812 /* Sources */,
-				4355140E2746EB45744165B05932997C /* Frameworks */,
-				531F354ACFE2458FADB5AB27B043890A /* Resources */,
+				8BEB91B4B898532A40DB8A8E4B9A7792 /* Sources */,
+				4F320E16D10A7BE9185BA7C5A5CCDA43 /* Frameworks */,
+				174BF058335E0D9E0D5AE8280994DE37 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1444,7 +1461,7 @@
 			);
 			name = "SnapKit-SnapKit_Privacy";
 			productName = SnapKit_Privacy;
-			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */;
+			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		C82891EAB7293DBEE916B21F57E8474D /* Quick */ = {
@@ -1462,17 +1479,17 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = 0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */;
+			productReference = 0D631E9908483F9525A6B3F36F16CC61 /* Quick */;
 			productType = "com.apple.product-type.framework";
 		};
 		CA3D99499260B4C146BBB22670C1D8AD /* CwlCatchExceptionSupport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80ED1C596211813DBD4E27FC6379C02A /* Build configuration list for PBXNativeTarget "CwlCatchExceptionSupport" */;
+			buildConfigurationList = 8C09664E7A58596350AACADB83761186 /* Build configuration list for PBXNativeTarget "CwlCatchExceptionSupport" */;
 			buildPhases = (
-				E237634B82305BB3BE0F93E6958F8D1A /* Headers */,
-				24527E20DE5C307697825AD14F6FD071 /* Sources */,
-				3364867DAC77B53E0532411036FB322F /* Frameworks */,
-				D56FCDE31BA4E5B39EEE14FA99349633 /* Resources */,
+				5931D781970500CD58CF7D5EBADAC0F0 /* Headers */,
+				BCDDE6D4FF0F5687CCB8C707AA637169 /* Sources */,
+				92C0326A4FF530AAFA1923BB6A377E72 /* Frameworks */,
+				32E4E714478D88ACE448583C2CE76452 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1480,7 +1497,7 @@
 			);
 			name = CwlCatchExceptionSupport;
 			productName = CwlCatchExceptionSupport;
-			productReference = 220D1365CED5CB83C4C0CE1E3DABD3B0 /* CwlCatchExceptionSupport.framework */;
+			productReference = 220D1365CED5CB83C4C0CE1E3DABD3B0 /* CwlCatchExceptionSupport */;
 			productType = "com.apple.product-type.framework";
 		};
 		E4D853F6FBAB5A9BDBE843E4EFB22EB7 /* CwlPreconditionTesting */ = {
@@ -1495,13 +1512,13 @@
 			buildRules = (
 			);
 			dependencies = (
-				3CAF4E2E480F8EBF720A60426C49CA89 /* PBXTargetDependency */,
-				766DC20387E9B3BA364E380E1FD6B357 /* PBXTargetDependency */,
-				C86D3B0FC7D10066731AA33B16ACD78F /* PBXTargetDependency */,
+				43A4304B4796DB688679BC022EBB0508 /* PBXTargetDependency */,
+				F76D1D44EB06180E8E5D2A1D8064F87B /* PBXTargetDependency */,
+				B8015B0F71047AC494FBC57F82455612 /* PBXTargetDependency */,
 			);
 			name = CwlPreconditionTesting;
 			productName = CwlPreconditionTesting;
-			productReference = CC56497384E780278F916D6C57EA4951 /* CwlPreconditionTesting.framework */;
+			productReference = CC56497384E780278F916D6C57EA4951 /* CwlPreconditionTesting */;
 			productType = "com.apple.product-type.framework";
 		};
 		EB8B23AD889CF5BE4A85CD0D8EF2DF99 /* CwlPosixPreconditionTesting */ = {
@@ -1519,7 +1536,7 @@
 			);
 			name = CwlPosixPreconditionTesting;
 			productName = CwlPosixPreconditionTesting;
-			productReference = D2AD834000B280096FEB80FBEBD9A414 /* CwlPosixPreconditionTesting.framework */;
+			productReference = D2AD834000B280096FEB80FBEBD9A414 /* CwlPosixPreconditionTesting */;
 			productType = "com.apple.product-type.framework";
 		};
 		F44CB96415A74BEB909484011B830522 /* Pods-MMTToolForBluetooth_Tests */ = {
@@ -1534,18 +1551,18 @@
 			buildRules = (
 			);
 			dependencies = (
-				7896FCAFEE7735571BBB66E0A68EA4A7 /* PBXTargetDependency */,
-				2521067AB6A58EA5E3875174F860A002 /* PBXTargetDependency */,
-				16468728D4BFDF5AC5F005E9C6232712 /* PBXTargetDependency */,
-				6DBFB2FD8C3C416B13C39572953F5334 /* PBXTargetDependency */,
-				672A524BE0B5F2729835CF101ACF0D30 /* PBXTargetDependency */,
-				EBE3A60131538293AE7B37C101441E31 /* PBXTargetDependency */,
-				1841ED576BFC5A54E21943062873C9B2 /* PBXTargetDependency */,
-				F8B05666535E4C08DD9B62AA37EE8607 /* PBXTargetDependency */,
+				4E6FE6554560D05D460D9C1444C70295 /* PBXTargetDependency */,
+				7FCC707A2419DBE079B7D673A07AD9C4 /* PBXTargetDependency */,
+				83CD26129EB49479138E13A2E56B2872 /* PBXTargetDependency */,
+				A3B3160940C0460AE3F0C1E9773FB996 /* PBXTargetDependency */,
+				05382EB74A6B2AED480F5304E8FCAACC /* PBXTargetDependency */,
+				5CE552D8B53E3DEA0A2343DA3FD54B79 /* PBXTargetDependency */,
+				6BDAFBA6B4DEEFEA6CC7CBB7B409253B /* PBXTargetDependency */,
+				1B9CFCEBF1270C7AF07A235ED57DEBD4 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTToolForBluetooth_Tests";
 			productName = Pods_MMTToolForBluetooth_Tests;
-			productReference = 450EC854A749635BB3EFDA9ACF8CB03D /* Pods_MMTToolForBluetooth_Tests.framework */;
+			productReference = 450EC854A749635BB3EFDA9ACF8CB03D /* Pods-MMTToolForBluetooth_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		FEF221693A93F8066CE7613F1B29A9C5 /* Pods-MMTToolForBluetooth_Example */ = {
@@ -1560,12 +1577,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				C3312C0063DF5E601E36612BDC402011 /* PBXTargetDependency */,
-				3943BB7D04C21B07204AF21523E5E25B /* PBXTargetDependency */,
+				C4D58116CD845BE74FCA1DCDA9396E19 /* PBXTargetDependency */,
+				91579AAE0DC0C3BEFE73E0FFD7A4AF31 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTToolForBluetooth_Example";
 			productName = Pods_MMTToolForBluetooth_Example;
-			productReference = EC7B09515F6E9173A60B15B6AC6900AC /* Pods_MMTToolForBluetooth_Example.framework */;
+			productReference = EC7B09515F6E9173A60B15B6AC6900AC /* Pods-MMTToolForBluetooth_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1586,6 +1603,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 694A8B71F3B11187533277CFE3767008 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1614,11 +1633,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		174BF058335E0D9E0D5AE8280994DE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F88DA1CED23ACF70ED0D51D2BCCE4F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DEDF411E550D85A1218E1655456A9CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0045B41BFE697DB4ADE151228024D2 /* SnapKit_Privacy.bundle in Resources */,
+				9E0045B41BFE697DB4ADE151228024D2 /* SnapKit-SnapKit_Privacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1629,11 +1656,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		531F354ACFE2458FADB5AB27B043890A /* Resources */ = {
+		32E4E714478D88ACE448583C2CE76452 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50305D739F07A9404C1CF90686FDDA9 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA3B3C7C4FBAC42D0616BAFB15F2DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1658,21 +1691,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACBB68B81CA2DDDFEFEFB9C26704301B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CDC317CDAB48690109003C11F95185F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D56FCDE31BA4E5B39EEE14FA99349633 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1696,15 +1715,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24527E20DE5C307697825AD14F6FD071 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				744D46F3F256AA37480F17AAEB72BB90 /* CwlCatchException.m in Sources */,
-				E319B6C1EE780C5A1D65C9DD050A776D /* CwlCatchExceptionSupport-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		285242C2263CBE4293327674BF86FA34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1805,6 +1815,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47F69ABAB3CBEC51251E453868329BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B830311F88EC66D9C1685E450D1D5F4 /* MMTToolForBleDevice.swift in Sources */,
+				2BE490076FDA8AB4C3FE1869F259CA70 /* MMTToolForBleLog.swift in Sources */,
+				32D959E8BAF63E90AEC2F056AB2DA8B3 /* MMTToolForBleManager.swift in Sources */,
+				2C268C56DDE63C947A89191770DA9A41 /* MMTToolForBluetooth.swift in Sources */,
+				6DE546527192C4DFBB66E58B66BC1F6F /* MMTToolForBluetooth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EE2018546C55CDEE07F53AAD939B265 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1822,11 +1844,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BEB91B4B898532A40DB8A8E4B9A7792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9113EFFD7AE90F8DDF52F968208C8C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				61E64501C42138545AD89D2607507995 /* Pods-MMTToolForBluetooth_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDE6D4FF0F5687CCB8C707AA637169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49A08F2F92AC82645C9169B6D816F22 /* CwlCatchException.m in Sources */,
+				D4D2E8FD9DF99EB515F600E4CD934F3C /* CwlCatchExceptionSupport-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1879,15 +1917,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8BB427291DC79E67E057B494511052E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A71B4EFC6E1A8CAA2E504DAA2382FCB8 /* MMTToolForBluetooth.swift in Sources */,
-				B773BEDA40DF794BD747A3F2EF78EBA3 /* MMTToolForBluetooth-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA6995042FC48CCB4CAB9BC3C3145317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1896,13 +1925,6 @@
 				F1C44E72D1C0EB8CADE53B670DCEFF36 /* CwlCatchBadInstruction.swift in Sources */,
 				C3B7C08D3D9C741A77473BC296651256 /* CwlDarwinDefinitions.swift in Sources */,
 				9CF063AD4B3A38BB68F24F8258FA4943 /* CwlPreconditionTesting-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8267CFF542A655B0349DEA32F9D3812 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1954,101 +1976,101 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E4E1723C336720155332D505ED951B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlPreconditionTesting;
-			target = E4D853F6FBAB5A9BDBE843E4EFB22EB7 /* CwlPreconditionTesting */;
-			targetProxy = 50CB35E87D74D1EB1748471B127DC6FA /* PBXContainerItemProxy */;
-		};
-		16468728D4BFDF5AC5F005E9C6232712 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlMachBadInstructionHandler;
-			target = 3BBD87E27EAD36B90D168213ED6DC32C /* CwlMachBadInstructionHandler */;
-			targetProxy = E6086F660D04AECC74E0C1B513A31B90 /* PBXContainerItemProxy */;
-		};
-		1841ED576BFC5A54E21943062873C9B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MMTToolForBluetooth_Example";
-			target = FEF221693A93F8066CE7613F1B29A9C5 /* Pods-MMTToolForBluetooth_Example */;
-			targetProxy = 7A2B3C25929C482A643EDF448E029291 /* PBXContainerItemProxy */;
-		};
-		2521067AB6A58EA5E3875174F860A002 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlCatchExceptionSupport;
-			target = CA3D99499260B4C146BBB22670C1D8AD /* CwlCatchExceptionSupport */;
-			targetProxy = 786C80DF1812D61319DA274DCADCDF41 /* PBXContainerItemProxy */;
-		};
-		3943BB7D04C21B07204AF21523E5E25B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = CEA8A1CBD9747476CAAFBB89DD33CBEE /* PBXContainerItemProxy */;
-		};
-		3CAF4E2E480F8EBF720A60426C49CA89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlCatchException;
-			target = 308B5C440C446909122081D367A27A8F /* CwlCatchException */;
-			targetProxy = 7A81AB2947E7C8627992B50A9684F177 /* PBXContainerItemProxy */;
-		};
-		4AF62D3FC32EB113703CC145ECDD2C27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlCatchExceptionSupport;
-			target = CA3D99499260B4C146BBB22670C1D8AD /* CwlCatchExceptionSupport */;
-			targetProxy = 940920235F3180D00EE8FFBC38D2E97E /* PBXContainerItemProxy */;
-		};
-		5E6ADEA5CB13A26667C28D7004512A6B /* PBXTargetDependency */ = {
+		032EC8AE715F3D13AD519BE9CA03294E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SnapKit-SnapKit_Privacy";
 			target = 8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */;
-			targetProxy = D2DCAAC81539FC65F43D68601C293C3B /* PBXContainerItemProxy */;
+			targetProxy = 4294839685D9EA7EF6090113DB9528A3 /* PBXContainerItemProxy */;
 		};
-		672A524BE0B5F2729835CF101ACF0D30 /* PBXTargetDependency */ = {
+		05382EB74A6B2AED480F5304E8FCAACC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CwlPreconditionTesting;
 			target = E4D853F6FBAB5A9BDBE843E4EFB22EB7 /* CwlPreconditionTesting */;
-			targetProxy = 5970259B46B60D4BC81634343FB8894B /* PBXContainerItemProxy */;
+			targetProxy = 5377AB6C0155D1F5B17459D078CBF8C0 /* PBXContainerItemProxy */;
 		};
-		6DBFB2FD8C3C416B13C39572953F5334 /* PBXTargetDependency */ = {
+		0BB0B1E777C16A19E9BBC0FD54FEF7A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CwlPosixPreconditionTesting;
-			target = EB8B23AD889CF5BE4A85CD0D8EF2DF99 /* CwlPosixPreconditionTesting */;
-			targetProxy = D4F42514226522DE76001A334C5908C8 /* PBXContainerItemProxy */;
+			name = CwlPreconditionTesting;
+			target = E4D853F6FBAB5A9BDBE843E4EFB22EB7 /* CwlPreconditionTesting */;
+			targetProxy = 3BFC9A6B94F61E89D67EAE863921F614 /* PBXContainerItemProxy */;
 		};
-		766DC20387E9B3BA364E380E1FD6B357 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlMachBadInstructionHandler;
-			target = 3BBD87E27EAD36B90D168213ED6DC32C /* CwlMachBadInstructionHandler */;
-			targetProxy = 797E1A25743B9B3BE263FCA11A2533D9 /* PBXContainerItemProxy */;
-		};
-		7896FCAFEE7735571BBB66E0A68EA4A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlCatchException;
-			target = 308B5C440C446909122081D367A27A8F /* CwlCatchException */;
-			targetProxy = ED9371AFC145F428BC1FA42984D1F2DB /* PBXContainerItemProxy */;
-		};
-		C3312C0063DF5E601E36612BDC402011 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MMTToolForBluetooth;
-			target = 436540B1AF96634EEEA19BE90DA01BE6 /* MMTToolForBluetooth */;
-			targetProxy = 66EDB018C78077D2D7A6E2119FFE4659 /* PBXContainerItemProxy */;
-		};
-		C86D3B0FC7D10066731AA33B16ACD78F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CwlPosixPreconditionTesting;
-			target = EB8B23AD889CF5BE4A85CD0D8EF2DF99 /* CwlPosixPreconditionTesting */;
-			targetProxy = B353B561A87F23767071226908319A02 /* PBXContainerItemProxy */;
-		};
-		EBE3A60131538293AE7B37C101441E31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Nimble;
-			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
-			targetProxy = 992CD8D933CFDD7D44B0564F7D9FA892 /* PBXContainerItemProxy */;
-		};
-		F8B05666535E4C08DD9B62AA37EE8607 /* PBXTargetDependency */ = {
+		1B9CFCEBF1270C7AF07A235ED57DEBD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
 			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
-			targetProxy = AB275425B895BFCC3BCA198D46D0F948 /* PBXContainerItemProxy */;
+			targetProxy = 486E7311D73F4DE6DE9C8607F8E795CC /* PBXContainerItemProxy */;
+		};
+		43A4304B4796DB688679BC022EBB0508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlCatchException;
+			target = 308B5C440C446909122081D367A27A8F /* CwlCatchException */;
+			targetProxy = B761063FFEDE903BA82D31B9A45E7A24 /* PBXContainerItemProxy */;
+		};
+		4E6FE6554560D05D460D9C1444C70295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlCatchException;
+			target = 308B5C440C446909122081D367A27A8F /* CwlCatchException */;
+			targetProxy = 2C0CA5B7BF7B058367AEFC2CF0C5C6A7 /* PBXContainerItemProxy */;
+		};
+		5CE552D8B53E3DEA0A2343DA3FD54B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nimble;
+			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
+			targetProxy = 993A1A8FC65CCE6C02CB1EB13B4C5F37 /* PBXContainerItemProxy */;
+		};
+		6BDAFBA6B4DEEFEA6CC7CBB7B409253B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MMTToolForBluetooth_Example";
+			target = FEF221693A93F8066CE7613F1B29A9C5 /* Pods-MMTToolForBluetooth_Example */;
+			targetProxy = 0AEC219361009ADB91ED7C9EC0D02FA8 /* PBXContainerItemProxy */;
+		};
+		7FCC707A2419DBE079B7D673A07AD9C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlCatchExceptionSupport;
+			target = CA3D99499260B4C146BBB22670C1D8AD /* CwlCatchExceptionSupport */;
+			targetProxy = B6029102A8BBD0F9445DEE56600F3ADE /* PBXContainerItemProxy */;
+		};
+		83CD26129EB49479138E13A2E56B2872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlMachBadInstructionHandler;
+			target = 3BBD87E27EAD36B90D168213ED6DC32C /* CwlMachBadInstructionHandler */;
+			targetProxy = D621D161FFE94BDA41042006621FB390 /* PBXContainerItemProxy */;
+		};
+		91579AAE0DC0C3BEFE73E0FFD7A4AF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = ED96A5E22748C9CAE784203D591EA204 /* PBXContainerItemProxy */;
+		};
+		A3B3160940C0460AE3F0C1E9773FB996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlPosixPreconditionTesting;
+			target = EB8B23AD889CF5BE4A85CD0D8EF2DF99 /* CwlPosixPreconditionTesting */;
+			targetProxy = B42B0331AF3A6D065E3841F18E660071 /* PBXContainerItemProxy */;
+		};
+		B8015B0F71047AC494FBC57F82455612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlPosixPreconditionTesting;
+			target = EB8B23AD889CF5BE4A85CD0D8EF2DF99 /* CwlPosixPreconditionTesting */;
+			targetProxy = 7ABC75AFED5A17F042C581BC196B13B0 /* PBXContainerItemProxy */;
+		};
+		C4D58116CD845BE74FCA1DCDA9396E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMTToolForBluetooth;
+			target = 436540B1AF96634EEEA19BE90DA01BE6 /* MMTToolForBluetooth */;
+			targetProxy = B580C7961827A9CC24E2D4058D2C57C4 /* PBXContainerItemProxy */;
+		};
+		EE8C8590D20752BDE809CC37DC90C277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlCatchExceptionSupport;
+			target = CA3D99499260B4C146BBB22670C1D8AD /* CwlCatchExceptionSupport */;
+			targetProxy = 494D9EC8645513F82AF683DB5C98EC9C /* PBXContainerItemProxy */;
+		};
+		F76D1D44EB06180E8E5D2A1D8064F87B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CwlMachBadInstructionHandler;
+			target = 3BBD87E27EAD36B90D168213ED6DC32C /* CwlMachBadInstructionHandler */;
+			targetProxy = 36A7E41FEAD38794315E3F04E05D08B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2125,23 +2147,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		35A2F6498A8E23D510505E3297B38F5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51F4BB865C2081593903156FB994C101 /* SnapKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
-				IBSC_MODULE = SnapKit;
-				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = SnapKit_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		37A20A328265A14D5B1E76BDB811D019 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2361,7 +2366,44 @@
 			};
 			name = Debug;
 		};
-		6471DF196A088005757698309107F402 /* Release */ = {
+		6FDB9EA45A2FB55E4A3BEB6FF1166F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E33EABAD1EE432A087A805E83C56EFF /* MMTToolForBluetooth.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth.modulemap";
+				PRODUCT_MODULE_NAME = MMTToolForBluetooth;
+				PRODUCT_NAME = MMTToolForBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AA36B6CE3B0C3B48B651A2702CCFC98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D97F4EF763F4432F2BC391CB587F053B /* SnapKit.release.xcconfig */;
 			buildSettings = {
@@ -2415,7 +2457,42 @@
 			};
 			name = Release;
 		};
-		7EF3754A6ACE513191362039E1CDFAA7 /* Release */ = {
+		82C613243E7E316B964C6997CD80BFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B5CC243362F2C035E719DFB78EA2EF /* Nimble.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AD569895C1AF6255C265C74774A74B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2EB3CC6779641139FC4844B3FC2BD3F /* CwlCatchExceptionSupport.release.xcconfig */;
 			buildSettings = {
@@ -2451,41 +2528,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		82C613243E7E316B964C6997CD80BFE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8B5CC243362F2C035E719DFB78EA2EF /* Nimble.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
-				PRODUCT_MODULE_NAME = Nimble;
-				PRODUCT_NAME = Nimble;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2553,39 +2595,20 @@
 			};
 			name = Debug;
 		};
-		904145874902026C560AC891C9E4A43C /* Debug */ = {
+		8F408C586919D67ACCB4002B798BF1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E10A7A13C02E0CA12E82C39B1890403 /* MMTToolForBluetooth.debug.xcconfig */;
+			baseConfigurationReference = 51F4BB865C2081593903156FB994C101 /* SnapKit.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
+				IBSC_MODULE = SnapKit;
+				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth.modulemap";
-				PRODUCT_MODULE_NAME = MMTToolForBluetooth;
-				PRODUCT_NAME = MMTToolForBluetooth;
+				PRODUCT_NAME = SnapKit_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -2644,7 +2667,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2831,44 +2855,7 @@
 			};
 			name = Debug;
 		};
-		DE2B89FD26F6FE35B52DBFC489230D97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF0914A1B88454C8B293EDD56E84FB4 /* MMTToolForBluetooth.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth.modulemap";
-				PRODUCT_MODULE_NAME = MMTToolForBluetooth;
-				PRODUCT_NAME = MMTToolForBluetooth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F1F310BE02F8B8FF40436A85887896D5 /* Debug */ = {
+		C367DB2B4C631D72C521F6CE5CC6F4F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52787535E4CDE8B79DCC24733BC6CF80 /* CwlCatchExceptionSupport.debug.xcconfig */;
 			buildSettings = {
@@ -2898,6 +2885,42 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F294B66F2B24E71153A2626B15F74E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EC7AE6F633D3CAB1A43A48077E9E77 /* MMTToolForBluetooth.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMTToolForBluetooth/MMTToolForBluetooth.modulemap";
+				PRODUCT_MODULE_NAME = MMTToolForBluetooth;
+				PRODUCT_NAME = MMTToolForBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3025,6 +3048,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2D29A227B6A83F5A542054A8A8043BAA /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F408C586919D67ACCB4002B798BF1CE /* Debug */,
+				7AA36B6CE3B0C3B48B651A2702CCFC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4286674F1ACAAEDD8D0AD9D838746D77 /* Build configuration list for PBXNativeTarget "CwlPreconditionTesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3043,11 +3075,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E1CCC06C500C1F824BE6E94F0E2EE95 /* Build configuration list for PBXNativeTarget "MMTToolForBluetooth" */ = {
+		7B89595242FC62CE7132D13D80FB1D9C /* Build configuration list for PBXNativeTarget "MMTToolForBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				904145874902026C560AC891C9E4A43C /* Debug */,
-				DE2B89FD26F6FE35B52DBFC489230D97 /* Release */,
+				F294B66F2B24E71153A2626B15F74E0C /* Debug */,
+				6FDB9EA45A2FB55E4A3BEB6FF1166F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3061,20 +3093,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80ED1C596211813DBD4E27FC6379C02A /* Build configuration list for PBXNativeTarget "CwlCatchExceptionSupport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1F310BE02F8B8FF40436A85887896D5 /* Debug */,
-				7EF3754A6ACE513191362039E1CDFAA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8AC46CF02836F734776D62A2C6470190 /* Build configuration list for PBXNativeTarget "CwlMachBadInstructionHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C21E6A2E753C43D675E1105133A9B2B6 /* Debug */,
 				B469FFD90A14BAA6110CEEEB2AFA8879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C09664E7A58596350AACADB83761186 /* Build configuration list for PBXNativeTarget "CwlCatchExceptionSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C367DB2B4C631D72C521F6CE5CC6F4F6 /* Debug */,
+				8AD569895C1AF6255C265C74774A74B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3102,15 +3134,6 @@
 			buildConfigurations = (
 				58A3EC661B442BA236F39DC03EDA7B7F /* Debug */,
 				2CFB3EF1DB520C2E3D0AFDE10ED4EC39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF2345C976535B8A6CF7FFE35B559091 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35A2F6498A8E23D510505E3297B38F5A /* Debug */,
-				6471DF196A088005757698309107F402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
