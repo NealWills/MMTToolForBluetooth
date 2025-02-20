@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMTToolForBluetooth'
-  s.version          = '0.9.0'
+  s.version          = '0.9.1'
   s.summary          = 'A short description of MMTToolForBluetooth.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A Bluetooth Tool For MMT Base
                        DESC
 
   s.homepage         = 'https://github.com/NealWills/MMTToolForBluetooth'

@@ -22,6 +22,13 @@ public protocol MMTToolForBleManagerDelegate: NSObject {
     
 }
 
+public class MMTToolForBleManagerWeakDelegate: NSObject {
+    weak var weakDelegate: MMTToolForBleManagerDelegate?
+    init(weakDelegate: MMTToolForBleManagerDelegate? = nil) {
+        self.weakDelegate = weakDelegate
+    }
+}
+
 /// A manager class for handling Bluetooth operations in the MMTToolForBluetooth module.
 /// 
 /// This class provides various functionalities to manage Bluetooth connections and data transfer.
@@ -40,7 +47,7 @@ public class MMTToolForBleManager: NSObject {
     /// - Note: Ensure that the central manager is properly initialized before attempting to use it.
     var centralManager: CBCentralManager?
     
-    var multiDelegateList: [MMTToolForBleManagerDelegate?] = .init()
+    var multiDelegateList: [MMTToolForBleManagerWeakDelegate] = .init()
     
     var bleStatus: CBManagerState = .unknown
     
@@ -71,12 +78,13 @@ public class MMTToolForBleManager: NSObject {
 public extension MMTToolForBleManager {
     
     func addDelegate(_ delegate: MMTToolForBleManagerDelegate?) {
-        self.multiDelegateList.append(delegate)
+        let delegateUnit = MMTToolForBleManagerWeakDelegate.init(weakDelegate: delegate)
+        self.multiDelegateList.append(delegateUnit)
     }
     
     func removeDelegate(_ delegate: MMTToolForBleManagerDelegate?) {
         let list = self.multiDelegateList.filter({
-            guard let item0 = $0 else {
+            guard let item0 = $0.weakDelegate else {
                 return false
             }
             guard let item1 = delegate else {
@@ -206,7 +214,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
             device.connectStatus = .connected
             device.peripheral.discoverServices(nil)
             self.multiDelegateList.forEach({
-                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+                $0.weakDelegate?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
             })
         } else {
             peripheral.delegate = nil
@@ -228,7 +236,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
         if let device = MMTToolForBleManager.shared.deviceList[uuid] {
             device.connectStatus = .disconnected
             self.multiDelegateList.forEach({
-                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+                $0.weakDelegate?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
             })
         } else {
             peripheral.delegate = nil
@@ -250,7 +258,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
         if let device = MMTToolForBleManager.shared.deviceList[uuid] {
             device.connectStatus = .disconnected
             self.multiDelegateList.forEach({
-                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+                $0.weakDelegate?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
             })
         } else {
             peripheral.delegate = nil
@@ -264,7 +272,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
         if let device = MMTToolForBleManager.shared.deviceList[uuid] {
             device.connectStatus = .disconnected
             self.multiDelegateList.forEach({
-                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+                $0.weakDelegate?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
             })
         } else {
             peripheral.delegate = nil
@@ -305,7 +313,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
             })
             self.multiDelegateList = delegateList
             delegateList.forEach({
-                $0?.mmtBleManagerDidDiscoverDevice(oldDevice)
+                $0.weakDelegate?.mmtBleManagerDidDiscoverDevice(oldDevice)
             })
         } else {
             device.update(rssi: RSSI.intValue)
@@ -321,7 +329,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
             })
             self.multiDelegateList = delegateList
             delegateList.forEach({
-                $0?.mmtBleManagerDidDiscoverDevice(device)
+                $0.weakDelegate?.mmtBleManagerDidDiscoverDevice(device)
             })
             
         }
