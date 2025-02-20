@@ -15,6 +15,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7209584F2D6487F90057035D /* BleDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209584E2D6487F90057035D /* BleDeviceCell.swift */; };
+		720958512D6489810057035D /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720958502D6489810057035D /* StringExt.swift */; };
+		720958532D648A430057035D /* NumberExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720958522D648A430057035D /* NumberExt.swift */; };
+		720958552D648C260057035D /* DictionaryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720958542D648C260057035D /* DictionaryExt.swift */; };
+		728C359D2D4722BF00AB896C /* MMTTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C359C2D4722BF00AB896C /* MMTTimer.swift */; };
 		FA55E106CA0E8ABA09F6E776 /* Pods_MMTToolForBluetooth_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AE24D0B2BD655F4F1A5378 /* Pods_MMTToolForBluetooth_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +48,11 @@
 		607FACE51AFB9204008FA782 /* MMTToolForBluetooth_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMTToolForBluetooth_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		7209584E2D6487F90057035D /* BleDeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleDeviceCell.swift; sourceTree = "<group>"; };
+		720958502D6489810057035D /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		720958522D648A430057035D /* NumberExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExt.swift; sourceTree = "<group>"; };
+		720958542D648C260057035D /* DictionaryExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExt.swift; sourceTree = "<group>"; };
+		728C359C2D4722BF00AB896C /* MMTTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTTimer.swift; sourceTree = "<group>"; };
 		7B0A683A233EB90BE38D1835 /* Pods-MMTToolForBluetooth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTToolForBluetooth_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MMTToolForBluetooth_Tests/Pods-MMTToolForBluetooth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B39225D6A7888134B83BB10 /* Pods-MMTToolForBluetooth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTToolForBluetooth_Example.release.xcconfig"; path = "Target Support Files/Pods-MMTToolForBluetooth_Example/Pods-MMTToolForBluetooth_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4AE24D0B2BD655F4F1A5378 /* Pods_MMTToolForBluetooth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForBluetooth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,10 +107,15 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				7209584E2D6487F90057035D /* BleDeviceCell.swift */,
 				08FEA0942D4639EE00A7C4E2 /* SearchView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				728C359C2D4722BF00AB896C /* MMTTimer.swift */,
+				720958502D6489810057035D /* StringExt.swift */,
+				720958522D648A430057035D /* NumberExt.swift */,
+				720958542D648C260057035D /* DictionaryExt.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for MMTToolForBluetooth";
@@ -216,11 +231,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 48J9S8BX9K;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 48J9S8BX9K;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
@@ -276,11 +293,17 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MMTToolForBluetooth_Example/Pods-MMTToolForBluetooth_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MMTToolForBluetooth/MMTToolForBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMTToolForBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,9 +392,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728C359D2D4722BF00AB896C /* MMTTimer.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				08FEA0952D4639EE00A7C4E2 /* SearchView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				720958512D6489810057035D /* StringExt.swift in Sources */,
+				720958552D648C260057035D /* DictionaryExt.swift in Sources */,
+				720958532D648A430057035D /* NumberExt.swift in Sources */,
+				7209584F2D6487F90057035D /* BleDeviceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,17 +546,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J9S8BX9K;
 				INFOPLIST_FILE = MMTToolForBluetooth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmt.example.bluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Metapen.PvtTemp01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -542,17 +570,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J9S8BX9K;
 				INFOPLIST_FILE = MMTToolForBluetooth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmt.example.bluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Metapen.PvtTemp01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -566,6 +594,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 48J9S8BX9K;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 48J9S8BX9K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -580,8 +610,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmt.example.bluetoothTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMTToolForBluetooth_Example.app/MMTToolForBluetooth_Example";
 			};
 			name = Debug;
@@ -592,6 +627,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 48J9S8BX9K;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 48J9S8BX9K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -602,8 +639,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmt.example.bluetoothTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMTToolForBluetooth_Example.app/MMTToolForBluetooth_Example";
 			};
 			name = Release;

@@ -1,6 +1,27 @@
 import CoreBluetooth
 import Foundation
 
+public typealias MMTService = CBService
+public typealias MMTCharacteristic = CBCharacteristic
+
+public protocol MMTToolForBleManagerDelegate: NSObject {
+    
+    func mmtBleManagerDidDiscoverDevice(_ device: MMTToolForBleDevice?)
+    
+    func mmtBleManagerDeviceConnectStatusDidChange(_ device: MMTToolForBleDevice?, status: MMTToolForBleDevice.ConnectStatus)
+    
+    func mmtBleManagerDeviceRssiDidChange(_ device: MMTToolForBleDevice?, rssi: Int?)
+    
+    func mmtBleManagerDeviceNameDidChange(_ device: MMTToolForBleDevice?, origin: String?, new: String?)
+    
+    func mmtBleManagerDeviceServerDidDiscover(_ device: MMTToolForBleDevice?, service: MMTService?, character: MMTCharacteristic?)
+    
+    func mmtBleManagerDeviceServerDidUpdate(_ device: MMTToolForBleDevice?, service: MMTService?, character: MMTCharacteristic?, value: Data?)
+    
+    func mmtBleManagerDeviceServerDidWrite(_ device: MMTToolForBleDevice?, service: MMTService?, character: MMTCharacteristic?, value: Data?)
+    
+}
+
 /// A manager class for handling Bluetooth operations in the MMTToolForBluetooth module.
 /// 
 /// This class provides various functionalities to manage Bluetooth connections and data transfer.
@@ -12,12 +33,16 @@ public class MMTToolForBleManager: NSObject {
     /// 
     /// This shared instance provides a global point of access to the `MMTToolForBleManager` class,
     /// ensuring that only one instance of the manager is created and used throughout the application.
-    static let shared = MMTToolForBleManager()
+    public static let shared = MMTToolForBleManager()
 
     /// The central manager instance responsible for managing Bluetooth low energy (BLE) connections and interactions.
     /// This property is optional and may be nil if the central manager has not been initialized.
     /// - Note: Ensure that the central manager is properly initialized before attempting to use it.
     var centralManager: CBCentralManager?
+    
+    var multiDelegateList: [MMTToolForBleManagerDelegate?] = .init()
+    
+    var bleStatus: CBManagerState = .unknown
     
     /// A dispatch queue used for managing Bluetooth-related tasks.
     /// This queue is optional and can be nil if not initialized.
@@ -30,11 +55,7 @@ public class MMTToolForBleManager: NSObject {
     
     /// A dictionary that holds the list of scanned Bluetooth devices.
     /// The keys are the device identifiers as strings, and the values are `MMTToolForBleDevice` objects.
-    var scanList: [String: MMTToolForBleDevice] = [:]
-    
-    /// A dictionary that maintains a list of connected Bluetooth devices.
-    /// The keys are the device identifiers as `String`, and the values are instances of `MMTToolForBleDevice`.
-    var connectList: [String: MMTToolForBleDevice] = [:]
+    public var deviceList: [String: MMTToolForBleDevice] = [:]
 
     /**
      Configures the Bluetooth manager.
@@ -42,8 +63,32 @@ public class MMTToolForBleManager: NSObject {
      This method sets up the necessary configurations for the Bluetooth manager to function properly.
      */
     public class func configManager() {
-        shared.queue = DispatchQueue(label: "com.mmt.ble.queue")
-        shared.centralManager = CBCentralManager(delegate: shared, queue: shared.queue)
+        MMTToolForBleManager.shared.queue = DispatchQueue(label: "com.mmtsdk.MMTToolForBleManager.queue")
+        MMTToolForBleManager.shared.centralManager = CBCentralManager(delegate: MMTToolForBleManager.shared, queue: MMTToolForBleManager.shared.queue)
+    }
+}
+
+public extension MMTToolForBleManager {
+    
+    func addDelegate(_ delegate: MMTToolForBleManagerDelegate?) {
+        self.multiDelegateList.append(delegate)
+    }
+    
+    func removeDelegate(_ delegate: MMTToolForBleManagerDelegate?) {
+        let list = self.multiDelegateList.filter({
+            guard let item0 = $0 else {
+                return false
+            }
+            guard let item1 = delegate else {
+                return true
+            }
+            
+            let id0 = String.init(format: "%p", item0)
+            let id1 = String.init(format: "%p", item1)
+            return !(id0 == id1)
+            
+        })
+        self.multiDelegateList = list
     }
 }
 
@@ -78,10 +123,18 @@ extension MMTToolForBleManager {
 
      - Parameter perfix: An optional string to filter devices by prefix. If `nil`, all devices will be scanned.
      */
-    class func startScan(perfix: String? = nil) {
+    public func startScan(perfix: String? = nil) {
+        MMTLog.debug.log("[MMTToolForBleManager] startScan perfix: \(perfix)")
+        MMTToolForBleManager.shared.centralManager?.stopScan()
         MMTToolForBleManager.shared.scanPrefix = nil
-        MMTToolForBleManager.shared.scanList.removeAll()
-        MMTToolForBleManager.shared.centralManager?.scanForPeripherals(withServices: nil)
+        MMTToolForBleManager.shared.scanPrefix = perfix
+        MMTToolForBleManager.shared.deviceList.filter {
+            return $0.value.connectStatus != .scan
+        }
+        DispatchQueue.init(label: "com.mmtsdk.MMTToolForBleManager").asyncAfter(deadline: .now() + 1, execute: {
+            MMTToolForBleManager.shared.centralManager?.scanForPeripherals(withServices: nil)
+        })
+        
     }
     
     /**
@@ -89,7 +142,7 @@ extension MMTToolForBleManager {
      
      This method should be called to halt any active scanning for Bluetooth devices.
      */
-    class func stopScan() {
+    public func stopScan() {
         MMTToolForBleManager.shared.centralManager?.stopScan()
     }
     
@@ -97,24 +150,16 @@ extension MMTToolForBleManager {
 
 /// Extension for `MMTToolForBleManager` to add additional functionalities or to organize code better.
 /// This extension is part of the MMTToolForBluetooth module.
-extension MMTToolForBleManager {
+public extension MMTToolForBleManager {
     
     /**
      Connects to the specified Bluetooth device.
 
      - Parameter device: The `MMTToolForBleDevice` instance representing the Bluetooth device to connect to.
      */
-    class func connect(device: MMTToolForBleDevice) {
-        let uuid = device.uuid
-        
-        if let device = MMTToolForBleManager.shared.connectList[uuid] {
-            if device.connectStatus != .disconnected { return }
-        }
-        if let device = MMTToolForBleManager.shared.scanList[uuid] {
-            MMTToolForBleManager.shared.scanList.removeValue(forKey: uuid)
-            MMTToolForBleManager.shared.connectList[uuid] = device
-            device.connect()
-        }
+    public class func connect(device: MMTToolForBleDevice) {
+        device.manager = MMTToolForBleManager.shared.centralManager
+        device.connect()
     }
     
     /**
@@ -122,11 +167,8 @@ extension MMTToolForBleManager {
 
      - Parameter device: The `MMTToolForBleDevice` instance representing the Bluetooth device to disconnect.
      */
-    class func disconnect(device: MMTToolForBleDevice) {
-        let uuid = device.uuid
+    public class func disconnect(device: MMTToolForBleDevice) {
         device.disconnect()
-        MMTToolForBleManager.shared.scanList.removeValue(forKey: uuid)
-        MMTToolForBleManager.shared.connectList.removeValue(forKey: uuid)
     }
 }
 
@@ -147,6 +189,7 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
      */
     public func centralManagerDidUpdateState(_ central: CBCentralManager) {
         MMTLog.debug.log("[MMTToolForBleManager] \(central.state.debugStrValue)")
+        self.bleStatus = central.state
     }
     
     /**
@@ -156,11 +199,18 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
      *   - central: The central manager providing this information.
      *   - peripheral: The peripheral that has connected.
      */
-    func centralManager(central: CBCentralManager, didConnectPeripheral peripheral: CBPeripheral) {
+    public func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         MMTLog.debug.log("[MMTToolForBleManager] didConnectPeripheral")
-        let uuid = peripheral.identifier.uuidString
-        if let device = MMTToolForBleManager.shared.connectList[uuid] {
+        let uuid = peripheral.identifier.uuidString.uppercased()
+        if let device = MMTToolForBleManager.shared.deviceList[uuid] {
             device.connectStatus = .connected
+            device.peripheral.discoverServices(nil)
+            self.multiDelegateList.forEach({
+                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+            })
+        } else {
+            peripheral.delegate = nil
+            central.cancelPeripheralConnection(peripheral)
         }
     }
     
@@ -172,11 +222,17 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
        - peripheral: The peripheral that failed to connect.
        - error: An optional error object containing details about why the connection failed.
      */
-    func centralManager(central: CBCentralManager, didFailToConnectPeripheral peripheral: CBPeripheral, error: NSError?) {
+    public func centralManager(_ central: CBCentralManager, didFailToConnect peripheral: CBPeripheral, error: (any Error)?) {
         MMTLog.debug.log("[MMTToolForBleManager] didFailToConnectPeripheral")
-        let uuid = peripheral.identifier.uuidString
-        if let device = MMTToolForBleManager.shared.connectList[uuid] {
+        let uuid = peripheral.identifier.uuidString.uppercased()
+        if let device = MMTToolForBleManager.shared.deviceList[uuid] {
             device.connectStatus = .disconnected
+            self.multiDelegateList.forEach({
+                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+            })
+        } else {
+            peripheral.delegate = nil
+            central.cancelPeripheralConnection(peripheral)
         }
     }
     
@@ -188,14 +244,33 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
        - peripheral: The peripheral that was disconnected.
        - error: An optional error object containing details of the disconnection, if any.
      */
-    func centralManager(central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: NSError?) {
+    public func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, timestamp: CFAbsoluteTime, isReconnecting: Bool, error: (any Error)?) {
         MMTLog.debug.log("[MMTToolForBleManager] didDisconnectPeripheral")
-        let uuid = peripheral.identifier.uuidString
-        if let device = MMTToolForBleManager.shared.connectList[uuid] {
+        let uuid = peripheral.identifier.uuidString.uppercased()
+        if let device = MMTToolForBleManager.shared.deviceList[uuid] {
             device.connectStatus = .disconnected
+            self.multiDelegateList.forEach({
+                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+            })
+        } else {
+            peripheral.delegate = nil
+            central.cancelPeripheralConnection(peripheral)
         }
     }
-
+    
+    public func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: (any Error)?) {
+        MMTLog.debug.log("[MMTToolForBleManager] didDisconnectPeripheral")
+        let uuid = peripheral.identifier.uuidString.uppercased()
+        if let device = MMTToolForBleManager.shared.deviceList[uuid] {
+            device.connectStatus = .disconnected
+            self.multiDelegateList.forEach({
+                $0?.mmtBleManagerDeviceConnectStatusDidChange(device, status: device.connectStatus)
+            })
+        } else {
+            peripheral.delegate = nil
+            central.cancelPeripheralConnection(peripheral)
+        }
+    }
     /**
      Called when a peripheral is discovered during a scan.
 
@@ -205,28 +280,51 @@ extension MMTToolForBleManager: CBCentralManagerDelegate {
        - advertisementData: A dictionary containing any advertisement data.
        - RSSI: The received signal strength indicator (RSSI) of the peripheral.
      */
-    func centralManager(central: CBCentralManager, didDiscoverPeripheral peripheral: CBPeripheral, advertisementData: [String : AnyObject], RSSI: NSNumber) {
-        MMTLog.debug.log("[MMTToolForBleManager] didDiscoverPeripheral")
-        let device = MMTToolForBleDevice(peripheral: peripheral, manager: central)
+    public func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
+        let device = MMTToolForBleDevice(peripheral: peripheral)
+        device.update(rssi: RSSI.intValue)
+        device.update(advertisementData: advertisementData)
         if let perfix = MMTToolForBleManager.shared.scanPrefix, perfix.count > 0 {
             let mac = device.mac ?? ""
             let deviceName = device.deviceName ?? ""
             let uuid = device.uuid ?? ""
-            if !mac.hasPrefix(perfix) && !deviceName.hasPrefix(perfix) && !uuid.hasPrefix(perfix) {
-                return 
+            if !mac.uppercased().hasPrefix(perfix.uppercased()) && !deviceName.uppercased().hasPrefix(perfix.uppercased()) && !uuid.uppercased().hasPrefix(perfix.uppercased()) {
+                return
             }
         }
-        if let oldDevice = MMTToolForBleManager.shared.scanList[device.uuid] {
+        if let oldDevice = MMTToolForBleManager.shared.deviceList[device.uuid.uppercased()] {
             oldDevice.update(rssi: RSSI.intValue)
             oldDevice.update(advertisementData: advertisementData)
             oldDevice.timestamp = Date().timeIntervalSince1970
+            oldDevice.connectStatus = .scan
+            peripheral.delegate = oldDevice
+            MMTLog.debug.log("[MMTToolForBleManager] didDiscoverPeripheral \(oldDevice)")
+            
+            let delegateList = self.multiDelegateList.filter({
+                return $0 != nil
+            })
+            self.multiDelegateList = delegateList
+            delegateList.forEach({
+                $0?.mmtBleManagerDidDiscoverDevice(oldDevice)
+            })
         } else {
             device.update(rssi: RSSI.intValue)
             device.update(advertisementData: advertisementData)
             device.timestamp = Date().timeIntervalSince1970
-            MMTToolForBleManager.shared.connectList[device.uuid] = device
+            device.connectStatus = .scan
+            MMTToolForBleManager.shared.deviceList[device.uuid.uppercased()] = device
+            
+            MMTLog.debug.log("[MMTToolForBleManager] didDiscoverPeripheral \(device)")
+            
+            let delegateList = self.multiDelegateList.filter({
+                return $0 != nil
+            })
+            self.multiDelegateList = delegateList
+            delegateList.forEach({
+                $0?.mmtBleManagerDidDiscoverDevice(device)
+            })
+            
         }
     }
-
     
 }

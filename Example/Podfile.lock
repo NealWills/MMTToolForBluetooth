@@ -12,12 +12,20 @@ PODS:
   - Nimble (13.7.1):
     - CwlPreconditionTesting (~> 2.2.0)
   - Quick (7.6.2)
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
   - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - MMTToolForBluetooth (from `../`)
   - Nimble
   - Quick
+  - RxCocoa
+  - RxSwift
   - SnapKit
 
 SPEC REPOS:
@@ -29,6 +37,9 @@ SPEC REPOS:
     - CwlPreconditionTesting
     - Nimble
     - Quick
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -44,8 +55,11 @@ SPEC CHECKSUMS:
   MMTToolForBluetooth: 32a80659e130b2a612a11b82f8257c73f4d2555e
   Nimble: 317d713c30c3336dd8571da1889f7ec3afc626e8
   Quick: b8bec97cd4b9f21da0472d45580f763b801fc353
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 6e68ed2bad9346c783f1e9a49658558a70c59029
+PODFILE CHECKSUM: c63038a0bf8fa45c93f11320f482ea38dcf11e76
 
 COCOAPODS: 1.16.2
