@@ -1,11 +1,11 @@
-import Foundation 
+import Foundation
 import CoreBluetooth
 
 /// A class that provides tools for interacting with Bluetooth devices.
-/// 
+///
 /// This class is part of the MMTToolForBluetooth module and is designed to facilitate
 /// communication and operations with Bluetooth devices.
-/// 
+///
 /// - Note: This class inherits from `NSObject`.
 public class MMTToolForBleDevice: NSObject {
     
@@ -43,7 +43,7 @@ public class MMTToolForBleDevice: NSObject {
     }
    
     /// The connection status of the Bluetooth device.
-    /// 
+    ///
     /// This property holds the current connection status of the Bluetooth device.
     /// It is of type `ConnectStatus` and is initialized to `.disConnect`.
     ///
@@ -81,7 +81,7 @@ public class MMTToolForBleDevice: NSObject {
     public var serviceUUID: String?
     
     /// A variable to store the timestamp.
-    /// 
+    ///
     /// This variable holds a `TimeInterval` value representing the timestamp.
     /// The default value is set to 0.
     public var timestamp: TimeInterval = 0
@@ -89,7 +89,7 @@ public class MMTToolForBleDevice: NSObject {
     /// A weak reference to the `CBCentralManager` instance.
     /// This property is used to manage Bluetooth-related tasks.
     /// The weak reference helps to avoid retain cycles and memory leaks.
-    /// 
+    ///
     weak var manager: CBCentralManager?
     
     /// A string representing the description of the Bluetooth device.
@@ -170,7 +170,7 @@ public class MMTToolForBleDevice: NSObject {
 public extension MMTToolForBleDevice {
     
     /// Establishes a connection to the Bluetooth device.
-    /// 
+    ///
     /// This method initiates the process of connecting to a Bluetooth device.
     /// It handles the necessary steps to establish a connection and ensures
     /// that the device is ready for communication.
@@ -181,7 +181,7 @@ public extension MMTToolForBleDevice {
                 self.manager?.connect(self.peripheral)
                 self.connectStatus = .connecting
                 MMTToolForBleManager.shared.multiDelegateList.forEach({
-                    $0?.mmtBleManagerDeviceConnectStatusDidChange(self, status: .connecting)
+                    $0.weakDelegate?.mmtBleManagerDeviceConnectStatusDidChange(self, status: .connecting)
                 })
             })
     }
@@ -215,7 +215,7 @@ extension MMTToolForBleDevice: CBPeripheralDelegate {
         let new = peripheral.name
         self.deviceName = new
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceNameDidChange(self, origin: origin, new: new)
+            $0.weakDelegate?.mmtBleManagerDeviceNameDidChange(self, origin: origin, new: new)
         })
     }
 
@@ -261,7 +261,7 @@ extension MMTToolForBleDevice: CBPeripheralDelegate {
         MMTLog.debug.log("[MMTToolForBleDevice \(self.mac)] didReadRSSI")
         self.update(rssi: RSSI.intValue)
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceRssiDidChange(self, rssi: RSSI.intValue)
+            $0.weakDelegate?.mmtBleManagerDeviceRssiDidChange(self, rssi: RSSI.intValue)
         })
     }
 
@@ -281,7 +281,7 @@ extension MMTToolForBleDevice: CBPeripheralDelegate {
             $0.peripheral?.discoverCharacteristics(nil, for: $0)
         })
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceServerDidDiscover(self, service: nil, character: nil)
+            $0.weakDelegate?.mmtBleManagerDeviceServerDidDiscover(self, service: nil, character: nil)
         })
     }
 
@@ -301,28 +301,28 @@ extension MMTToolForBleDevice: CBPeripheralDelegate {
             $0.service?.peripheral?.discoverDescriptors(for: $0)
         })
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceServerDidDiscover(self, service: service, character: nil)
+            $0.weakDelegate?.mmtBleManagerDeviceServerDidDiscover(self, service: service, character: nil)
         })
     }
     
     public func peripheral(_ peripheral: CBPeripheral, didDiscoverDescriptorsFor characteristic: CBCharacteristic, error: (any Error)?) {
         MMTLog.debug.log("[MMTToolForBleDevice \(self.mac)] didDiscoverDescriptorsFor \(characteristic)")
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceServerDidDiscover(self, service: characteristic.service, character: characteristic)
+            $0.weakDelegate?.mmtBleManagerDeviceServerDidDiscover(self, service: characteristic.service, character: characteristic)
         })
     }
 
     public func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic, error: (any Error)?) {
         MMTLog.debug.log("[MMTToolForBleDevice \(self.mac)] didUpdateValueFor \(characteristic)")
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceServerDidUpdate(self, service: characteristic.service, character: characteristic, value: characteristic.value)
+            $0.weakDelegate?.mmtBleManagerDeviceServerDidUpdate(self, service: characteristic.service, character: characteristic, value: characteristic.value)
         })
     }
     
     public func peripheral(_ peripheral: CBPeripheral, didWriteValueFor characteristic: CBCharacteristic, error: (any Error)?) {
         MMTLog.debug.log("[MMTToolForBleDevice \(self.mac)] didWriteValueFor \(characteristic)")
         MMTToolForBleManager.shared.multiDelegateList.forEach({
-            $0?.mmtBleManagerDeviceServerDidWrite(self, service: characteristic.service, character: characteristic, value: characteristic.value)
+            $0.weakDelegate?.mmtBleManagerDeviceServerDidWrite(self, service: characteristic.service, character: characteristic, value: characteristic.value)
         })
     }
     
